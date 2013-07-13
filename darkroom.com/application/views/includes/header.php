@@ -8,7 +8,7 @@
     <!-- Basic Page Needs
   ================================================== -->
     <meta charset="utf-8">
-    <title>Darkroom: Photography</title>
+    <title>xDarkroom: Photography</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
