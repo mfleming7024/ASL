@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.29)
 # Database: ssl_groupProject
-# Generation Time: 2013-07-11 15:43:43 +0000
+# Generation Time: 2013-07-13 14:41:25 +0000
 # ************************************************************
 
 
@@ -187,18 +187,23 @@ CREATE TABLE `users` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(25) DEFAULT NULL,
   `password` varchar(32) DEFAULT NULL,
+  `lastname` varchar(35) DEFAULT NULL,
+  `firstname` varchar(35) DEFAULT NULL,
+  `email` varchar(55) DEFAULT NULL,
+  `date` date DEFAULT NULL,
+  `notes` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 
-INSERT INTO `users` (`id`, `username`, `password`)
+INSERT INTO `users` (`id`, `username`, `password`, `lastname`, `firstname`, `email`, `date`, `notes`)
 VALUES
-	(2,'test','098f6bcd4621d373cade4e832627b4f6'),
-	(3,'erwin','785f0b13d4daf8eee0d11195f58302a4'),
-	(4,'student','password'),
-	(5,'todd','c60ba607dafb7a7150dcdf7ec61924b3');
+	(6,'edited','683dc5278b1fbbd98a996cecc3ffd06a','edited','edited','edi','2013-07-30','asdasd'),
+	(30,'student','5f4dcc3b5aa765d61d8327deb882cf99','student','first','student@lol.com','0000-00-00',''),
+	(31,'user','ee11cbb19052e40b07aac0ca060c23ee','Angeles','Erwin','user@user.com','2013-07-31','user main'),
+	(41,'erwerwer','e130e5e618f15cee7a519d8b7b8306a0','edited new','edited new','werwer','0000-00-00','werwer');
 
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
