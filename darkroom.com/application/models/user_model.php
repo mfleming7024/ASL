@@ -2,17 +2,20 @@
 
 class User_model extends CI_Model{
 
-    function validate(){
+        function get_users($id){
+       // $query = $this->db->query("SELECT * FROM users;");
 
-        $this->db->where('username', $this->input->post('username'));
-        $this->db->where('password', md5($this->input->post('password')));
-        $query = $this->db->get('users');
+            $new_user_insert_data = array(
+                'lastname' =>$this->db->query('lastname'),
+                'firstname' => $this->db->query('firstname'),
+                'username' => $this->db->query('username'),
+                'password' => md5($this->db->query('password')),
+                'email' => $this->db->query('email'),
+                'notes' => $this->db->query('notes'),
+            );
 
-        if($query->num_rows == 1){
-            return $query->result();
-        }else{
-            return false;
-        }
+            $insert = $this->db->query('users', $new_user_insert_data);
+            return $insert;
     }
 
 }

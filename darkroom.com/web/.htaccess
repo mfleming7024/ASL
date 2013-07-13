@@ -1,4 +1,6 @@
 RewriteEngine On
+Options +FollowSymLinks
+
 
 # Put your installation directory here:
 # If your URL is www.example.com/, use /

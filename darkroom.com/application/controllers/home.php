@@ -37,44 +37,4 @@ class Home extends CI_Controller{
         $this->load->view('includes/template', $data);
     }
 
-//class Home extends CI_Controller {
-////    public function __construct(){
-////        parent::__construct();
-////        // $this->load-library('session');
-////    }
-//    public function view($home = 'home'){
-//        if ( ! file_exists('../application/views/home/'.$home.'.php'))
-//        {
-//            // Whoops, we don't have a page for that!
-//            show_404();
-//        }
-//        $data['title'] = ucfirst($home); // Capitalize the first letter
-//
-//        $this->load->view('templates/header', $data);
-//        $this->load->view('home/'.$home, $data);
-//        $this->load->view('templates/footer', $data);
-//    }
-//
-//    function login(){
-//        $this->load->model('user_model');
-//        $query = $this->user_model->validate();
-//
-//        //if the users credentials validated
-//        if($query){
-//            $data = array(
-//                'username' => $this->input->post('username'),
-//                'is_logged_in' => true
-//            );
-//
-//            $this->session->set_userdata($data);
-//            redirect('user/second');
-//        }else{
-//            $this->view();
-//        }
-//    }
-//
-//    function validate_credentials(){
-//
-//
-//    }
 }

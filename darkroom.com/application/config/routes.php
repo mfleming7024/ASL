@@ -65,7 +65,7 @@
 */
 
 $route['default_controller'] = 'home';
-//$route['(:any)'] = 'home/index/$1';
+$route['(:any)'] = 'home/index/$1';
 
 $route['user/(:any)'] = 'user/$1';
 $route['user'] = 'user';

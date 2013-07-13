@@ -1,7 +1,4 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/* Author: Jorge Torres
- * Description: Login model class
- */
 class Login_model extends CI_Model{
     function __construct(){
         parent::__construct();
@@ -32,6 +29,13 @@ class Login_model extends CI_Model{
 //                'username' => $row->username,
 //                'validated' => true
 //            );
+//            $row = $query->row();
+//            $data = array(
+//                'session_id'    =>  randomhash,
+//                'ip_address'    =>  'string - user IP address',
+//                'user_agent'    =>  'string - user agent data',
+//                'last_activity' =>  timestamp
+//            );
             if($query){
                 $data = array(
                     'username' => $this->input->post('username'),
@@ -44,6 +48,7 @@ class Login_model extends CI_Model{
         // If the previous process did not validate
         // then return false.
         return false;
-    }
-    }  }
+        }
+     }
+}
 ?>

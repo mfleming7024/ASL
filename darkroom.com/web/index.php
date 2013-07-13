@@ -81,7 +81,7 @@ switch (ENVIRONMENT)
  * Include the path if the folder is not in the same  directory
  * as this file.
  */
-	$system_path = '/Applications/MAMP/htdocs/day7.php.com/system';
+	$system_path = '/Users/erwinangeles/Sites/darkroom/darkroom.com/system';
 
 /*
  *---------------------------------------------------------------
@@ -96,7 +96,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = '/Applications/MAMP/htdocs/day7.php.com/application';
+	$application_folder = '/Users/erwinangeles/Sites/darkroom/darkroom.com/application';
 
 /*
  *---------------------------------------------------------------

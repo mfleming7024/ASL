@@ -31,7 +31,7 @@
 <div id="top" class="clearfix">
     <div class="header">
         <div class="logo">
-            <a href="http://localhost:8888/"><img src="/img/logo.png" alt="Orgame Logo"></a>
+            <a href="/"><img src="/img/logo.png" alt="Orgame Logo"></a>
         </div> <!-- end logo -->
         <div id="topNav">
             <ul>

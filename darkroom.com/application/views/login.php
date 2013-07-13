@@ -1,4 +1,19 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed'); ?>
+<script>
+    function confirmation() {
+        return confirm("Are you sure you want to delete this record?")
+    }
+</script>
+<?php
+
+$query = $this->db->query("SELECT * FROM users;");
+
+foreach ($query->result('User') as $row)
+{
+   // echo $row->lastname; // call attributes
+    //echo $row->reverse_name(); // or methods defined on the 'User' class
+}
+?>
 
 </div> <!-- end top -->
 
@@ -8,10 +23,11 @@
     </div>
     <nav id="admin_nav">
         <ul>
-            <li class="add_user"><a href="/user/addUser"><h3>Add User</h3></a>
+            <li class="add_user"><a href="/user/add_user"><h3>Add User</h3></a>
         </ul>
     </nav>
     <div id="admin_bg">
+
         <table id="view_user_table">
             <thead>
             <tr>
@@ -21,18 +37,24 @@
                 <th width="10%">email</th>
                 <th width="10%">Created Date</th>
                 <th width="20%">Note</th>
+                <th width="1%">Action</th>
             </tr>
             </thead>
-            <tbody>
-            <tr>
-                <td>Angeles</td>
-                <td>Erwin</td>
-                <td><a href="/user/albums">erwina</a></td>
-                <td>erwina@yahoo.com</td>
-                <td>2013/06/25</td>
-                <td>Wants something!</td>
-            </tr>
-            </tbody>
+            <?php
+            foreach($query->result('User') as $row){
+                echo '<tbody>';
+                echo '<tr>';
+                echo '<td>'. $row->lastname .'</td>';
+                echo '<td>'. $row->firstname .'</td>';
+                echo '<td>'. $row->username .'</td>';
+                echo '<td>'. $row->email .'</td>';
+                echo '<td>'. $row->date .'</td>';
+                echo '<td>'. $row->notes .'</td>';
+                echo '<td> <a href="/user/update/'.$row->id .'">EDIT</a> | <a onclick="return confirmation();" href="/user/delete/'.$row->id .'" >DELETE </a></td>';
+                echo '</tr>';
+                echo '</tbody>';
+            }
+            ?>
         </table>
     </div>
 
