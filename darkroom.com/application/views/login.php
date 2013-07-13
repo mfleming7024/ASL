@@ -45,7 +45,7 @@ foreach ($query->result('User') as $row)
             foreach($query->result('User') as $row){
                 echo '<tbody>';
                 echo '<tr>';
-                echo '<td><a href="/users/album/"><img src="/img/arrow.png"></a> </td>';
+                echo '<td><a href="/user/album/'.$row->id.'"><img src="/img/arrow.png"></a> </td>';
                 echo '<td>'. $row->lastname .'</td>';
                 echo '<td>'. $row->firstname .'</td>';
                 echo '<td>'. $row->username .'</td>';

@@ -1,24 +1,11 @@
 <?php
-$query = $this->db->query("SELECT * FROM users");
+$id = $this->uri->segment(3);
+$query = $this->db->get_where('users', array('id' => $id));
+$result = $query->row_array();
 
-foreach ($query->result('User') as $row)
-{
-// echo $row->lastname; // call attributes
-//echo $row->reverse_name(); // or methods defined on the 'User' class
-}
-
-//$this->load->database();
-//
-//$data = array(
-//    'id'=>$id,
-//
-//);
-//$this->db->where('id' ,$id);
-//$query = $this->db->get('users',$data);
-
-//$row->id = $this->input->get();
 
 ?>
+
 
 <div class ="wrapper">
     <div id="top" class="clearfix">
@@ -39,10 +26,10 @@ foreach ($query->result('User') as $row)
             <form action="/user/update_user" id="add_info" enctype="multipart/form-data" method="post">
                 <h3>Last Name:</h3>
                 <input type="hidden" name="id" value="<?php echo $id;?>" />
-                <input id="goalName" name="lastname" placeholder="Last Name" value="<?php echo $row->id;?>" >
+                <input id="goalName" name="lastname" placeholder="Last Name" value="<?php echo $result['lastname'];?>" >
                 <?php echo form_error('lastname'); ?>
                 <h3>First Name:</h3>
-                <input id="goalName" name="firstname" placeholder="First Name" value="<?php echo $row->firstname ;?>" >
+                <input id="goalName" name="firstname" placeholder="First Name" value="<?php echo $result['firstname'];?>" >
                 <h3>Username:</h3>
                 <input id="goalName" name="username" placeholder="Username" >
                 <h3>Password:</h3>

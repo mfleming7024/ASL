@@ -13,6 +13,7 @@ class User extends CI_Controller {
     function login(){
 
         $data['main'] = 'login';
+        //$data['main'] = 'album';
         $this->load->view('includes/template', $data);
        // $this->load->view('login');
     }
@@ -109,5 +110,9 @@ class User extends CI_Controller {
         }
         $this->login();
 
+    }
+    function album(){
+        $data['main'] = 'album';
+        $this->load->view('includes/template', $data);
     }
 }

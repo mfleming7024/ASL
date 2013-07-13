@@ -1,8 +1,16 @@
+<?php
+$id = $this->uri->segment(3);
+$query = $this->db->get_where('users', array('id' => $id));
+$result = $query->row_array();
+
+
+?>
 
 
 <div id="middle_two" class="clearfix">
     <div id="view_user">
-        <h3>Angeles, Erwin</h3>
+        <h3><?php
+            echo $result['lastname'] . ", " . $result['firstname'] ;?></h3>
     </div>
     <nav id="admin_nav">
         <ul id="upload_bar">
@@ -17,11 +25,7 @@
             </li>
         </ul>
     </nav>
-    <nav id="admin_nav">
-        <!-- <ul>
-            <li class="add_user"><a href=""><h3>Add Album</h3></a>
-        </ul> -->
-    </nav>
+
     <div id="admin_bg">
         <!-- <table id="view_user_table">
             <thead>
