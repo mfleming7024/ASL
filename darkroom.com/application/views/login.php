@@ -31,10 +31,11 @@ foreach ($query->result('User') as $row)
         <table id="view_user_table">
             <thead>
             <tr>
+                <th width="1%">Albm</th>
                 <th width="10%">Last Name</th>
                 <th width="10%">First Name</th>
                 <th width="10%">User Name</th>
-                <th width="10%">email</th>
+                <th width="15%">email</th>
                 <th width="10%">Created Date</th>
                 <th width="20%">Note</th>
                 <th width="1%">Action</th>
@@ -44,6 +45,7 @@ foreach ($query->result('User') as $row)
             foreach($query->result('User') as $row){
                 echo '<tbody>';
                 echo '<tr>';
+                echo '<td><a href="/users/album/"><img src="/img/arrow.png"></a> </td>';
                 echo '<td>'. $row->lastname .'</td>';
                 echo '<td>'. $row->firstname .'</td>';
                 echo '<td>'. $row->username .'</td>';
