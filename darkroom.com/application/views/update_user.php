@@ -1,8 +1,7 @@
 <?php
 $id = $this->uri->segment(3);
-$query = $this->db->get_where('users', array('id' => $id));
+$query = $this->db->get_where('users', array('userId' => $id));
 $result = $query->row_array();
-
 
 ?>
 
@@ -40,7 +39,7 @@ $result = $query->row_array();
                 <input id="dateInput" type="date" name="dateInput">
                 <h3>Notes:</h3>
                 <input type="textarea" id="add_description" name="notes">
-                <button class="goal_btn" named="edit">EDIT</button>
+                <button class="goal_btn" name="edit">EDIT</button>
                 <?php
                 echo validation_errors('<p class="error">');
                 ?>

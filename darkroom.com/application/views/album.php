@@ -1,11 +1,12 @@
 <?php
 $id = $this->uri->segment(3);
-$query = $this->db->get_where('users', array('id' => $id));
+$query = $this->db->get_where('users', array('userId' => $id));
 $result = $query->row_array();
-
+?>
+<?php
+$query2 = $this->db->query("SELECT * FROM album;");
 
 ?>
-
 
 <div id="middle_two" class="clearfix">
     <div id="view_user">
@@ -17,9 +18,10 @@ $result = $query->row_array();
             <li class="add_user"><h3>Add Album</h3></li>
 
             <li>
-                <form action="/user/addAlbum" method="post"
+                <form action="/user/create_album/<?php echo $id;?>" method="post"
                       ENCTYPE="multipart/form-data">
-                    <input type="text" name="albumName" >
+                    <input type="hidden" name="id" value="<?php echo $id;?>" />
+                    <input type="text" name="album_name" value="<?php echo $id;?>">
                     <input type="submit" value="Create">
                 </form>
             </li>
@@ -27,31 +29,22 @@ $result = $query->row_array();
     </nav>
 
     <div id="admin_bg">
-        <!-- <table id="view_user_table">
-            <thead>
-                <tr>
-                    <th width="15%">Album Name</th>
-                    <th width="15%">Created Date</th>
-                    <th width="15%">Location</th>
-                    <th width="70%">Notes</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Kids</td>
-                    <td>2013/06/26</td>
-                    <td>Orlando</td>
-                    <td>some notes</td>
-                </tr>
-            </tbody>
-        </table> -->
         <ul class="albums">
-            <li class="item-type-1">
-                <a href="/user/photos">
-                    <span>Cats</span>
-                    <img src="/img/1.jpg" height="120" width="160">
-                </a>
-            </li>
+        <?php
+        foreach($query2->result('User') as $row){
+            //echo $row->userId;
+            if($row->userId == $id){
+               //echo '<ul class="albums">' ;
+                echo '<li class="item-type-1">';
+                echo '<a href="/user/photos">';
+                echo '<span>'.$row->albumName.'</span>';
+                echo '<img src="/img/1.jpg" height="120" width="160">';
+                echo '</a>';
+                echo '</li>';
+               // echo '</ul>';
+            }
+        }
+        ?>
         </ul>
     </div>
 

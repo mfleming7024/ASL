@@ -16,7 +16,7 @@ class Login_model extends CI_Model{
 
 
         // Run the query
-        $query = $this->db->get('users');
+        $query = $this->db->get_where('users');
         // Let's check if there are any results
         if($query->num_rows() == 1)
         {

@@ -54,7 +54,7 @@
         if($this->session->userdata('is_logged_in')){
         echo '<div id="greeting">';
 		echo '		<h4>Welcome, <span>';  echo $username; echo '</span></h4> ';
-    echo  '</div> ';
+        echo  '</div> ';
             echo '<a href="/user/logout"><button class="btn_logout">LOGOUT</button></a>';
         }else{
             echo '<form id="inputs" action="home/process" enctype="multipart/form-data" method="post">';

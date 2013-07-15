@@ -4,11 +4,7 @@ class User extends CI_Controller {
     function __construct(){
         parent::__construct();
         $this->authenticate();
-       // $this->require_login();
-        //  $this->load->driver('session');
-        //if(!$this->session->userdata('username')) header('location: /login');
     }
-
 
     function login(){
 
@@ -71,48 +67,44 @@ class User extends CI_Controller {
 
     function update($id){
         $this->load->model('update_model');
-       // echo $id;
-        //$id = $this->input->post('my_id');
-
-        if($this->input->post('edit')){
-            if($this->input->post('id')){
-                $this->update_model->update_users();
-            }else{
-                $this->update_model->entry_insert();
-            }
-        }
 
         $data['main'] = 'update_user';
         $data['id'] = $id;
-
-        //$data = $id;
 
         $this->load->view('/includes/template',$data);
 
     }
 
-    function update_user($id = 0){
+    function update_user(){
       //  echo $id;
         $this->load->model('update_model');
 
+        $this->update_model->update_users();
 
-
-        $data = $this->update_model->update_users();
-
-        if((int)$id > 0){
-            $query = $this->update_model->get($id);
-            $data['id']['value'] = $query['id'];
-            $data['lastname']['value'] = $query['lastname'];
-            $data['firstname']['value'] = $query['firstname'];
-            $data['username']['value'] = $query['username'];
-            $data['password']['value'] = $query['password'];
-            $data['notes']['value'] = $query['notes'];
-        }
         $this->login();
 
     }
-    function album(){
+    function album($id){
+
+        $this->load->model('create_album_model');
+
+        //$this->create_album_model->add_album();
+
+//        $Lol = $this->create_album_model->get();
+//        var_dump($Lol);
         $data['main'] = 'album';
+        $data['id'] = $id;
         $this->load->view('includes/template', $data);
     }
+
+    function create_album($id = 0){
+
+        $this->load->model('create_album_model');
+        $lol =$this->create_album_model->add_album();
+        //var_dump($lol);
+        $data['main'] = 'album';
+        $this->load->view('includes/template', $data);
+
+        }
+
 }

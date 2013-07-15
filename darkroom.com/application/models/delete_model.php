@@ -8,7 +8,7 @@ class Delete_model extends CI_Model{
 
     function delete($id)
     {
-        $this->db->where('id', $id);
+        $this->db->where('userId', $id);
         $this->db->delete('users');
     }
 

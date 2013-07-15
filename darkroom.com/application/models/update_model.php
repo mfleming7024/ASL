@@ -19,15 +19,14 @@ class Update_model extends CI_Model{
             'notes'=>$this->input->post('notes'),
 
         );
-        $this->db->where('id' ,$this->input->post('id'));
+        $this->db->where('userId' ,$this->input->post('id'));
         $this->db->update('users',$data);
-
 
     }
 
     function get($id){
         $this->load->database();
-        $query = $this->db->get_where('users', array('id' => $id));
+        $query = $this->db->get_where('users', array('userId' => $id));
         return $query->row_array();
     }
 

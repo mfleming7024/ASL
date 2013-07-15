@@ -45,14 +45,14 @@ foreach ($query->result('User') as $row)
             foreach($query->result('User') as $row){
                 echo '<tbody>';
                 echo '<tr>';
-                echo '<td><a href="/user/album/'.$row->id.'"><img src="/img/arrow.png"></a> </td>';
+                echo '<td><a href="/user/album/'.$row->userId.'"><img src="/img/arrow.png"></a> </td>';
                 echo '<td>'. $row->lastname .'</td>';
                 echo '<td>'. $row->firstname .'</td>';
                 echo '<td>'. $row->username .'</td>';
                 echo '<td>'. $row->email .'</td>';
                 echo '<td>'. $row->date .'</td>';
                 echo '<td>'. $row->notes .'</td>';
-                echo '<td> <a href="/user/update/'.$row->id .'">EDIT</a> | <a onclick="return confirmation();" href="/user/delete/'.$row->id .'" >DELETE </a></td>';
+                echo '<td> <a href="/user/update/'.$row->userId .'">EDIT</a> | <a onclick="return confirmation();" href="/user/delete/'.$row->userId .'" >DELETE </a></td>';
                 echo '</tr>';
                 echo '</tbody>';
             }
