@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.29)
 # Database: ssl_groupProject
-# Generation Time: 2013-07-16 14:29:09 +0000
+# Generation Time: 2013-07-16 19:01:57 +0000
 # ************************************************************
 
 
@@ -39,24 +39,8 @@ LOCK TABLES `album` WRITE;
 
 INSERT INTO `album` (`albumId`, `albumName`, `userId`)
 VALUES
-	(139,'Cat poo',42),
-	(141,'Dogs are awesome',42),
-	(142,'Birds',42),
-	(143,'42',42),
-	(144,'test',42),
-	(145,'test',42),
-	(154,'Spring Break',31),
-	(155,'Spring Break',31),
-	(156,'Spring Break',31),
-	(157,'Spring Break',31),
-	(158,'Winter Break',31),
-	(159,'31',31),
-	(160,'Jennings Weddings',43),
-	(161,'beach',43),
-	(162,'somewhere',43),
-	(163,'somewhere',43),
-	(164,'somewhere',43),
-	(165,'album natme',43);
+	(205,'Chicks',46),
+	(206,'album name',31);
 
 /*!40000 ALTER TABLE `album` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -92,8 +76,7 @@ CREATE TABLE `images` (
   PRIMARY KEY (`imgId`),
   KEY `userfk` (`userId`),
   KEY `albumidFK` (`albumId`),
-  CONSTRAINT `albumidFK` FOREIGN KEY (`albumId`) REFERENCES `album` (`albumId`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `userfk` FOREIGN KEY (`userId`) REFERENCES `user` (`userId`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `albumidFK` FOREIGN KEY (`albumId`) REFERENCES `album` (`albumId`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 LOCK TABLES `images` WRITE;
@@ -101,63 +84,13 @@ LOCK TABLES `images` WRITE;
 
 INSERT INTO `images` (`imgId`, `name`, `userId`, `albumId`)
 VALUES
-	(68,'beautiful_village-wallpaper-1440x9001.jpg',NULL,NULL),
-	(69,'beautiful_village-wallpaper-1440x9002.jpg',NULL,NULL),
-	(70,'chalets-wallpaper-1280x768.jpg',NULL,NULL),
-	(71,'chalets-wallpaper-1280x7681.jpg',NULL,NULL);
+	(127,'beach_26-wallpaper-1440x9001.jpg',NULL,205),
+	(128,'chicago_late_evening-wallpaper-1440x9002.jpg',NULL,205),
+	(129,'branch_macro-wallpaper-1440x9001.jpg',NULL,205),
+	(130,'apple_on_the_ground-wallpaper-1440x900.jpg',NULL,206),
+	(131,'chicago_late_evening-wallpaper-1440x9003.jpg',NULL,206);
 
 /*!40000 ALTER TABLE `images` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
-# Dump of table salt
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `salt`;
-
-CREATE TABLE `salt` (
-  `saltId` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `userId` int(11) NOT NULL,
-  `salt` char(20) DEFAULT NULL,
-  PRIMARY KEY (`saltId`),
-  KEY `user_fk` (`userId`),
-  CONSTRAINT `userid_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`userId`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-LOCK TABLES `salt` WRITE;
-/*!40000 ALTER TABLE `salt` DISABLE KEYS */;
-
-INSERT INTO `salt` (`saltId`, `userId`, `salt`)
-VALUES
-	(7,5,'tRAjz5!(lMkXuO`9CuDE');
-
-/*!40000 ALTER TABLE `salt` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
-# Dump of table user
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `user`;
-
-CREATE TABLE `user` (
-  `userId` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(11) DEFAULT NULL,
-  `passwordHash` char(32) DEFAULT NULL,
-  `userTypeId` int(11) NOT NULL,
-  PRIMARY KEY (`userId`),
-  KEY `usertypefk` (`userTypeId`),
-  CONSTRAINT `user_ibfk_1` FOREIGN KEY (`userTypeId`) REFERENCES `userType` (`userTypeId`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-LOCK TABLES `user` WRITE;
-/*!40000 ALTER TABLE `user` DISABLE KEYS */;
-
-INSERT INTO `user` (`userId`, `username`, `passwordHash`, `userTypeId`)
-VALUES
-	(5,'Michael','0c4c15298f19dea6ffe425e4c1977adb',1);
-
-/*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
@@ -183,9 +116,11 @@ LOCK TABLES `users` WRITE;
 
 INSERT INTO `users` (`userId`, `username`, `password`, `lastname`, `firstname`, `email`, `date`, `notes`)
 VALUES
-	(31,'user','ee11cbb19052e40b07aac0ca060c23ee','Edited Angeles','Erwin','asdasd@a.com','2013-07-31','asd'),
+	(31,'user','ee11cbb19052e40b07aac0ca060c23ee','Angeles','Erwin','user@user.com','2013-07-31',''),
 	(42,'album','a4b2d20f456833bcdac42e73edad64c0','Last Name Album','First Name Album','album@yahoo.com','2013-07-31','Test for albums'),
-	(43,'jenny','ebe6941ee8a10c14dc933ae37a0f43fc','Bob','Jenny','jenny@jenny.com','2013-07-18','Today');
+	(43,'jenny','ebe6941ee8a10c14dc933ae37a0f43fc','Bob','Jenny','jenny@jenny.com','2013-07-18','Today'),
+	(44,'users','9bc65c2abec141778ffaa729489f3e87','last','first','user@user.com','2013-07-26','Wants to '),
+	(46,'lol','9cdfb439c7876e703e307864c9167a15','EDITED Bond','James','lol@yahoo.com','2013-07-31','lol');
 
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;

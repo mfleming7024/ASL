@@ -164,7 +164,6 @@ class User extends CI_Controller {
             $this->upload_model->insert_file($data['file_name']);
             $query2 = $this->upload_model->get2();
 
-
             $data['result'] = $result;
             $data['id'] = $this->uri->segment(3);
 

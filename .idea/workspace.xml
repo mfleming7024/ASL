@@ -80,19 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="40" selection-start="3258" selection-end="3258" vertical-scroll-proportion="-9.551021">
+            <state line="164" column="50" selection-start="4548" selection-end="4548" vertical-scroll-proportion="0.5655488">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.04405286">
+            <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="-1.25">
               <folding>
                 <marker date="1374000668000" expanded="true" signature="8:73" placeholder="..." />
               </folding>
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/darkroom.com/application/models/create_album_model.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/models/upload_model.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/photos.php" />
-        <option value="$PROJECT_DIR$/darkroom.com/application/controllers/user.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/includes/footer.php" />
+        <option value="$PROJECT_DIR$/darkroom.com/application/controllers/user.php" />
       </list>
     </option>
   </component>
@@ -620,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/photos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="55" selection-start="383" selection-end="383" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/album.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="12" selection-start="870" selection-end="894" vertical-scroll-proportion="-15.625">
@@ -634,19 +627,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/user.php">
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="40" selection-start="3258" selection-end="3258" vertical-scroll-proportion="-9.551021">
+        <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="-1.25">
+          <folding>
+            <marker date="1374000668000" expanded="true" signature="8:73" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/photos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="55" selection-start="383" selection-end="383" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/includes/footer.php">
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.04405286">
-          <folding>
-            <marker date="1374000668000" expanded="true" signature="8:73" placeholder="..." />
-          </folding>
+        <state line="164" column="50" selection-start="4548" selection-end="4548" vertical-scroll-proportion="0.5655488">
+          <folding />
         </state>
       </provider>
     </entry>
