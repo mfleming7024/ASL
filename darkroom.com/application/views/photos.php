@@ -18,38 +18,21 @@ $query = $this->db->query("SELECT * FROM images;");
                     <input type="file" name="userfile" accept="image/gif, image/jpeg, image/png">
                     <input type="submit" value="Upload">
                 </form>
-
-
-<!--                --><?php //echo form_open_multipart('user/uploads');?>
-<!---->
-<!--                <input type="file" name="userfile" size="20" />-->
-<!---->
-<!--                <br /><br />-->
-<!---->
-<!--                <input type="submit" value="upload" />-->
-
-                </form>
             </li>
         </ul>
     </nav>
     <div id="admin_bg">
         <ul class="photos">
-
             <?php
 
-
             foreach($query->result() as $row){
-                //echo $row->userId;
 
-                    //echo '<ul class="albums">' ;
                     echo '<li class="item-type-1">';
                     echo '<a href="/uploads/'. $row->name .'" data-lightbox="album" title="">';
                     echo '<span></span>';
                     echo '<img src="/uploads/'. $row->name .'" height="120" width="160">';
                     echo '</a>';
                     echo '</li>';
-                    // echo '</ul>';
-
             }
             ?>
 

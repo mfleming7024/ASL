@@ -1,9 +1,9 @@
 <?php
-$id = $this->uri->segment(3);
-$query = $this->db->get_where('users', array('userId' => $id));
-$result = $query->row_array();
+//$id = $this->uri->segment(3);
+//$query = $this->db->get_where('users', array('userId' => $id));
+//$result = $query->row_array();
 
-$query2 = $this->db->query("SELECT * FROM album;");
+//$query2 = $this->db->query("SELECT * FROM album;");
 
 ?>
 
@@ -30,6 +30,7 @@ $query2 = $this->db->query("SELECT * FROM album;");
     <div id="admin_bg">
         <ul class="albums">
         <?php
+        //var_dump($query2);
         foreach($query2->result() as $row){
             //echo $row->userId;
             if($row->userId == $id){
