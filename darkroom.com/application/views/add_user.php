@@ -37,9 +37,6 @@
                 <input type="textarea" id="add_description" name="notes">
                  <?php echo form_error('add_description'); ?>
                 <button class="goal_btn">ADD</button>
-                <?php
-                echo validation_errors('<p class="error">');
-                ?>
             </form>
 
         </div> <!-- end goal-->

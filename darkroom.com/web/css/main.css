@@ -305,7 +305,7 @@ a{
 #footer_add_user {
 	background: #333333;
 	height: 250px;
-	margin-top: 340px;
+	margin-top: 440px;
 }
 
 #footer_goal h3{
@@ -637,7 +637,6 @@ a{
 
 #btm_add_goal{
 	background-image: -webkit-linear-gradient(#6a6a6a 0%, #4d4d4d 45.7%, #4c4c4c 85%, #6b6b6b 98.34%);
-	/* background-image: -webkit-linear-gradient(#6a6a6a 0%, #4d4d4d 45%); */
 	max-width: 700px;
 	margin: 0 auto;
 	width: 100%;
@@ -677,7 +676,7 @@ a{
 }
 
 .goal_btn{
-	margin-left: 290px;
+	margin-left: 140px;
 	margin-top: 20px;
 	height: 30px;
 	width: 125px;
