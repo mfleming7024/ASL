@@ -12,20 +12,21 @@ $query = $this->db->query("SELECT * FROM images;");
         <ul id="upload_bar">
             <li class="add_user"><h3>Upload Images</h3></li>
             <li>
-<!--                <form action="/user/upload" method="post"-->
-<!--                      ENCTYPE="multipart/form-data">-->
-<!--                    <input type="file" name="image" accept="image/gif, image/jpeg, image/png">-->
-<!--                    <input type="submit" value="Upload">-->
-<!--                </form>-->
+                <?php echo $error;?>
+                <form action="/user/uploads" method="post"
+                      ENCTYPE="multipart/form-data">
+                    <input type="file" name="userfile" accept="image/gif, image/jpeg, image/png">
+                    <input type="submit" value="Upload">
+                </form>
 
 
-                <?php echo form_open_multipart('user/upload');?>
-
-                <input type="file" name="userfile" size="20" />
-
-                <br /><br />
-
-                <input type="submit" value="upload" />
+<!--                --><?php //echo form_open_multipart('user/uploads');?>
+<!---->
+<!--                <input type="file" name="userfile" size="20" />-->
+<!---->
+<!--                <br /><br />-->
+<!---->
+<!--                <input type="submit" value="upload" />-->
 
                 </form>
             </li>
@@ -53,9 +54,9 @@ $query = $this->db->query("SELECT * FROM images;");
 
                     //echo '<ul class="albums">' ;
                     echo '<li class="item-type-1">';
-                    echo '<a href="/upload/'.$row->name.'">';
+                    echo '<a href="/uploads/'. $row->name .'">';
                     echo '<span></span>';
-                    echo '<img src="/upload/'.$row->name.'" height="120" width="160">';
+                    echo '<img src="/uploads/'. $row->name .'" height="120" width="160">';
                     echo '</a>';
                     echo '</li>';
                     // echo '</ul>';

@@ -4,6 +4,7 @@ class User extends CI_Controller {
     function __construct(){
         parent::__construct();
         $this->authenticate();
+        $this->load->helper(array('form', 'url'));
     }
 
     function login(){
@@ -113,7 +114,10 @@ class User extends CI_Controller {
         }
 
     function photos(){
+
+        $this->load->library('upload');
         $data['main'] = 'photos';
+        $data['error'] = $this->upload->display_errors();
         $this->load->view('includes/template', $data);
     }
 
@@ -137,7 +141,7 @@ class User extends CI_Controller {
 //            echo 'success';
 //        }
 //    }
-    function upload()
+    function uploads()
     {
         $config['upload_path'] = './uploads/';
         $config['allowed_types'] = 'gif|jpg|png';
@@ -147,7 +151,7 @@ class User extends CI_Controller {
 
         if (!$this->upload->do_upload())
         {
-            //$error = array('error' => $this->upload->display_errors());
+            $data = array('error' => $this->upload->display_errors());
 
             //$this->load->view('upload_form', $error);
             $data['main'] = 'photos';
@@ -156,11 +160,14 @@ class User extends CI_Controller {
         }
         else
         {
-            $data = $this->upload->data();
+            $this->load->model('upload_model');
 
+            $data = $this->upload->data();
+            $this->upload_model->insert_file($data['file_name']);
+            $data['error'] = $this->upload->display_errors();
             $data['main'] = 'photos';
             $this->load->view('includes/template', $data);
-            echo 'success';
+            //echo 'success';
         }
     }
 
