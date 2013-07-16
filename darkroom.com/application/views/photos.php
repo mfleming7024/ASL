@@ -35,26 +35,15 @@ $query = $this->db->query("SELECT * FROM images;");
     <div id="admin_bg">
         <ul class="photos">
 
-<!--            --><?php
-//            foreach ($data as $img) {
-//                echo '
-//
-//						<li class="item-type-1">
-//							<a href="/upload/' . $img["name"] . '">
-//								<span>' . $img["name"] . '</span>
-//								<img src="/upload/' . $img["name"] . '" height="120" width="160">
-//							</a>
-//						</li>
-//
-//						';
-//            }
+            <?php
+
 
             foreach($query->result() as $row){
                 //echo $row->userId;
 
                     //echo '<ul class="albums">' ;
                     echo '<li class="item-type-1">';
-                    echo '<a href="/uploads/'. $row->name .'">';
+                    echo '<a href="/uploads/'. $row->name .'" data-lightbox="album" title="">';
                     echo '<span></span>';
                     echo '<img src="/uploads/'. $row->name .'" height="120" width="160">';
                     echo '</a>';
@@ -72,8 +61,8 @@ $query = $this->db->query("SELECT * FROM images;");
     </div>
 
 </div> <!-- end middle-->
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="js/lightbox-2.6.min.js"></script>
+<script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/js/lightbox-2.6.min.js"></script>
 <div id="footer_goal" class="clearfix">
     <div id="footer_column">
 
