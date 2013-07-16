@@ -127,7 +127,7 @@ class User extends CI_Controller {
         $this->load->view('includes/template', $data);
     }
 
-    function uploads($id)
+    function uploads($id = 0)
     {
         $config['upload_path'] = './uploads/';
         $config['allowed_types'] = 'gif|jpg|png';
@@ -148,14 +148,14 @@ class User extends CI_Controller {
         {
             $this->load->model('upload_model');
 
-
             $data['id'] = $this->uri->segment(3);
+            //echo $id;
             $data = $this->upload->data();
-            $this->upload_model->insert_file($data['file_name']);
+            $this->upload_model->insert_file($data['file_name'],$id);
             $data['error'] = $this->upload->display_errors();
             $data['main'] = 'photos';
             $this->load->view('includes/template', $data);
-            //echo 'success';
+
         }
     }
 
