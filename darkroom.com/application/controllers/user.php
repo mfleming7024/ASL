@@ -112,8 +112,10 @@ class User extends CI_Controller {
         $result = $this->create_album_model->get($id);
         $query2 = $this->create_album_model->get2();
         $this->create_album_model->add_album();
-        $data['id'] = $this->uri->segment(3);
+
         $data['main'] = 'album';
+
+        $data['id'] = $this->uri->segment(3);
         $data['result'] = $result;
         $data['query2'] = $query2;
         $this->load->view('includes/template', $data);
@@ -123,9 +125,14 @@ class User extends CI_Controller {
     function photos(){
 
         $this->load->library('upload');
+
+        $this->load->model('upload_model');
+
+        $query2 = $this->upload_model->get2();
+
         $data['main'] = 'photos';
         $data['id'] = $this->uri->segment(3);
-
+        $data['query2'] = $query2;
         $data['error'] = $this->upload->display_errors();
         $this->load->view('includes/template', $data);
     }
@@ -154,13 +161,13 @@ class User extends CI_Controller {
             $result = $this->upload_model->get($id);
 
             $data = $this->upload->data();
-            $this->upload_model->insert_file($data['file_name'],$id);
+            $this->upload_model->insert_file($data['file_name']);
+            $query2 = $this->upload_model->get2();
 
-
-            echo $result;
             $data['result'] = $result;
             $data = $this->uri->segment(3);
             $data['id'] = $this->uri->segment(3);
+            $data['query2'] = $query2;
             $data['error'] = $this->upload->display_errors();
             $data['main'] = 'photos';
             $this->load->view('includes/template', $data);

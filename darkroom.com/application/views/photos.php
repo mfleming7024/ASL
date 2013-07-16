@@ -26,14 +26,15 @@ $query = $this->db->query("SELECT * FROM images;");
         <ul class="photos">
             <?php
 
-            foreach($query->result() as $row){
-
+            foreach($query2->result() as $row){
+                if($row->albumId == $id){
                     echo '<li class="item-type-1">';
                     echo '<a href="/uploads/'. $row->name .'" data-lightbox="album" title="">';
                     echo '<span>' . $row->name . '</span>';
                     echo '<img src="/uploads/'. $row->name .'" height="120" width="160">';
                     echo '</a>';
                     echo '</li>';
+                }
             }
             ?>
 
