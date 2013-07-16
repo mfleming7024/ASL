@@ -29,7 +29,7 @@ $query = $this->db->query("SELECT * FROM images;");
 
                     echo '<li class="item-type-1">';
                     echo '<a href="/uploads/'. $row->name .'" data-lightbox="album" title="">';
-                    echo '<span></span>';
+                    echo '<span>' . $row->name . '</span>';
                     echo '<img src="/uploads/'. $row->name .'" height="120" width="160">';
                     echo '</a>';
                     echo '</li>';
