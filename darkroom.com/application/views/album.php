@@ -1,12 +1,3 @@
-<?php
-//$id = $this->uri->segment(3);
-//$query = $this->db->get_where('users', array('userId' => $id));
-//$result = $query->row_array();
-
-//$query2 = $this->db->query("SELECT * FROM album;");
-
-?>
-
 <div id="middle_two" class="clearfix">
     <div id="view_user">
         <h3><?php

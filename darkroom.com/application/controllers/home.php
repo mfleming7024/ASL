@@ -1,10 +1,11 @@
 <?php
 
 class Home extends CI_Controller{
+
     function __construct(){
+
         parent::__construct();
-      //  $this->load->driver('session');
-        //  if(!$this->session->userdata('username')) header('location: user/login');
+
     }
 
 

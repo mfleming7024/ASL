@@ -1,6 +1,7 @@
 <?php
 
 class User extends CI_Controller {
+
     function __construct(){
         parent::__construct();
         $this->authenticate();
@@ -10,9 +11,7 @@ class User extends CI_Controller {
     function login(){
 
         $data['main'] = 'login';
-        //$data['main'] = 'album';
         $this->load->view('includes/template', $data);
-       // $this->load->view('login');
     }
     function logout(){
         $this->session->sess_destroy();
@@ -77,7 +76,7 @@ class User extends CI_Controller {
     }
 
     function update_user(){
-      //  echo $id;
+
         $this->load->model('update_model');
 
         $this->update_model->update_users();
@@ -89,26 +88,25 @@ class User extends CI_Controller {
 
         $this->load->model('create_album_model');
 
-        //$this->create_album_model->add_album();
-
         $result = $this->create_album_model->get($id);
         $query2 = $this->create_album_model->get2();
-       // var_dump($Lol);
-       // echo $data['id'] = $this->uri->segment(3);
         $data['id'] = $this->uri->segment(3);
         $data['main'] = 'album';
         $data['result'] = $result;
         $data['query2'] = $query2;
-        //$data['id'] = $id;
         $this->load->view('includes/template', $data);
     }
 
     function create_album($id = 0){
 
         $this->load->model('create_album_model');
-        $lol =$this->create_album_model->add_album();
-        //var_dump($lol);
+
+        $result = $this->create_album_model->get($id);
+        $query2 = $this->create_album_model->get2();
+        $data['id'] = $this->uri->segment(3);
         $data['main'] = 'album';
+        $data['result'] = $result;
+        $data['query2'] = $query2;
         $this->load->view('includes/template', $data);
 
         }
@@ -121,26 +119,6 @@ class User extends CI_Controller {
         $this->load->view('includes/template', $data);
     }
 
-//    function upload(){
-//        //$file_element_name = 'userfile';
-//
-//        $config['upload_path'] = './uploads';
-//        $config['allowed_types'] = 'gif|jpg|png';
-//
-//        $this->load->library('upload', $config);
-//
-//        if(!$this->upload->do_upload()){
-//            echo 'Error';
-//            $this->photos();
-//        }else{
-//            $data = $this->upload->data();
-//            $this->upload_model->insert_file($data['file_name']);
-//
-//            $data['main'] = 'photos';
-//            $this->load->view('includes/template', $data);
-//            echo 'success';
-//        }
-//    }
     function uploads()
     {
         $config['upload_path'] = './uploads/';

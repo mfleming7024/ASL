@@ -1,5 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Login_model extends CI_Model{
+
     function __construct(){
         parent::__construct();
     }
@@ -12,30 +13,13 @@ class Login_model extends CI_Model{
         // Prep the query
         $this->db->where('username', $username);
         $this->db->where('password', $password);
-    //    $this->db->where('password', md5($this->input->post('password')));
-
 
         // Run the query
         $query = $this->db->get_where('users');
         // Let's check if there are any results
         if($query->num_rows() == 1)
         {
-            // If there is a user, then create session data
-//            $row = $query->row();
-//            $data = array(
-//                'userid' => $row->userid,
-//                'fname' => $row->fname,
-//                'lname' => $row->lname,
-//                'username' => $row->username,
-//                'validated' => true
-//            );
-//            $row = $query->row();
-//            $data = array(
-//                'session_id'    =>  randomhash,
-//                'ip_address'    =>  'string - user IP address',
-//                'user_agent'    =>  'string - user agent data',
-//                'last_activity' =>  timestamp
-//            );
+
             if($query){
                 $data = array(
                     'username' => $this->input->post('username'),
