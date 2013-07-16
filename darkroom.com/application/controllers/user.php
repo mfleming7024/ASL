@@ -14,6 +14,7 @@ class User extends CI_Controller {
         $this->load->view('includes/template', $data);
        // $this->load->view('login');
     }
+    
     function logout(){
         $this->session->sess_destroy();
         redirect('http://darkroom.com/');
@@ -42,10 +43,17 @@ class User extends CI_Controller {
 
         //fieldname , errormessage, validation rules
         $this->form_validation->set_rules('lastname','Last name', 'trim|required');
+        $this->form_validation->set_rules('firstname','First name', 'trim|required');
+        $this->form_validation->set_rules('username','Username', 'trim|required');
+        $this->form_validation->set_rules('password','Password', 'trim|required');
+        $this->form_validation->set_rules('email','Email', 'trim|required|valid_email');
+        $this->form_validation->set_rules('dateInput','Date', 'required');
+        $this->form_validation->set_rules('notes','Notes', 'trim');
 
         if($this->form_validation->run() == FALSE)
         {
-            $this->login();
+			$data['main'] = 'add_user';
+            $this->load->view('includes/template', $data);
         }else{
             $this->load->model('add_user_model');
             if($query = $this->add_user_model->add_user()){

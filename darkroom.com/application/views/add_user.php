@@ -20,16 +20,22 @@
                 <?php echo form_error('lastname'); ?>
                 <h3>First Name:</h3>
                 <input id="goalName" name="firstname" placeholder="First Name" >
+                 <?php echo form_error('firstname'); ?>
                 <h3>Username:</h3>
                 <input id="goalName" name="username" placeholder="Username" >
+                 <?php echo form_error('username') ?>
                 <h3>Password:</h3>
                 <input id="goalName" type="password" name="password" placeholder="password" >
+                 <?php echo form_error('password'); ?>
                 <h3>Email:</h3>
                 <input id="goalName" name="email" placeholder="Email" >
+                 <?php echo form_error('email'); ?>
                 <h3>Date:</h3>
                 <input id="dateInput" type="date" name="dateInput">
+                 <?php echo form_error('date'); ?>
                 <h3>Notes:</h3>
                 <input type="textarea" id="add_description" name="notes">
+                 <?php echo form_error('add_description'); ?>
                 <button class="goal_btn">ADD</button>
                 <?php
                 echo validation_errors('<p class="error">');
