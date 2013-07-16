@@ -2,8 +2,7 @@
 $id = $this->uri->segment(3);
 $query = $this->db->get_where('users', array('userId' => $id));
 $result = $query->row_array();
-?>
-<?php
+
 $query2 = $this->db->query("SELECT * FROM album;");
 
 ?>
@@ -21,7 +20,7 @@ $query2 = $this->db->query("SELECT * FROM album;");
                 <form action="/user/create_album/<?php echo $id;?>" method="post"
                       ENCTYPE="multipart/form-data">
                     <input type="hidden" name="id" value="<?php echo $id;?>" />
-                    <input type="text" name="album_name" value="<?php echo $id;?>">
+                    <input type="text" name="album_name" value="album name">
                     <input type="submit" value="Create">
                 </form>
             </li>
@@ -31,12 +30,12 @@ $query2 = $this->db->query("SELECT * FROM album;");
     <div id="admin_bg">
         <ul class="albums">
         <?php
-        foreach($query2->result('User') as $row){
+        foreach($query2->result() as $row){
             //echo $row->userId;
             if($row->userId == $id){
                //echo '<ul class="albums">' ;
                 echo '<li class="item-type-1">';
-                echo '<a href="/user/photos">';
+                echo '<a href="/user/photos/'.$row->albumId.'">';
                 echo '<span>'.$row->albumName.'</span>';
                 echo '<img src="/img/1.jpg" height="120" width="160">';
                 echo '</a>';

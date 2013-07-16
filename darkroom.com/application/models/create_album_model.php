@@ -2,6 +2,11 @@
 
 class Create_album_model extends CI_Model{
 
+    function __construct()
+    {
+        parent::__construct();
+    }
+
     function add_album(){
 
         $this->load->database();
@@ -15,15 +20,22 @@ class Create_album_model extends CI_Model{
         $this->db->insert('album',$data);
     }
 
-    function get(){
+    function get($id){
 
-        $id = $this->uri->segment(3);
-       // echo $id;
+
         $query = $this->db->get_where('users', array('userId' => $id));
         $result = $query->row_array();
-
+        return $result;
+        echo $result;
     }
 
+    function get2(){
+        $query2 = $this->db->query("SELECT * FROM album;");
+        $query2->result();
 
+//        foreach($query2->result() as $row){
+//          // echo $row;
+//        }
+    }
 
 }
