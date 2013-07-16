@@ -615,7 +615,7 @@ a{
 .add_goal_panel{
 	background-image: -webkit-linear-gradient(#ffffff 0%, #bcbcbc 77.81%, #646464 100%);
 	max-width: 700px;
-	height: 740px;
+	height: 800px;
 	margin: 0 auto;
 	box-shadow: 0 2px 20px black;
 }
@@ -667,7 +667,7 @@ a{
 }
 
 #dateInput{
-	width: 100px;
+	width: 150px;
 	height: 30px;
 }
 
@@ -994,6 +994,20 @@ border: 0;
 
 #upload_bar form * {
 	border: none;
+}
+
+
+
+
+
+
+/*					Testing					*/
+#add_info p {
+	color: red;
+	float: left;
+	margin: 3px 0;
+	padding: 0;
+	width: 100%;
 }
 
 
