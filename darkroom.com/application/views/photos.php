@@ -72,7 +72,8 @@ $query = $this->db->query("SELECT * FROM images;");
     </div>
 
 </div> <!-- end middle-->
-
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/lightbox-2.6.min.js"></script>
 <div id="footer_goal" class="clearfix">
     <div id="footer_column">
 

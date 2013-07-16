@@ -1,537 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/logs/access_log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/bg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/uploads/ci_logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/ci_test.sqlite" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/.idea/day7.php.com.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/logs/error_log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/features.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/googleplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/logoh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/tera.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/img/ui.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/Benchmark_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/Bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_redis.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_wincache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/libraries/Calendar_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/Common_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/Config_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/DB_driver_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/DB_query_builder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/DB_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/libraries/Driver_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/libraries/Encrypt_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/Input_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Javascript/Jquery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/Lang_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/Loader_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/Output_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/libraries/Parser_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/Security_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Session/Session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Session/drivers/Session_cookie.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Session/drivers/Session_native.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/libraries/Session_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/Setup_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/libraries/Table_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/libraries/Typography_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/URI_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/libraries/Upload_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/libraries/Useragent_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/core/Utf8_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/home/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/add_user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/models/add_user_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/album.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/array_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/autoloader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/core/benchmark.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/captcha_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/ci_testcase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/ci_testconfig.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/core/common.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/cookie_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/count_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/models/create_album_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/date_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/models/delete_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/delete_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/directory_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/distinct_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/download_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/db/driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/libraries/driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/email_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/empty_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/libraries/encrypt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/errors/error_404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/errors/error_db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/errors/error_general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/errors/error_php.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/escape_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/file_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/includes/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/form_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/from_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/get_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/css/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/group_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/includes/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/controllers/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/html_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/ibase/ibase_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/ibase/ibase_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/ibase/ibase_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/ibase/ibase_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/ibase/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite3/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Javascript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Session/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Session/drivers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/inflector_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/core/input.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/insert_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/join_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/js/jquery.placeholder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/language_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/like_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/limit_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/models/login_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/config/memcached.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/config/mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/config/pdo/mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/drivers/mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/travis/mysql.phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/travis/pdo/mysql.phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/config/mysqli.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/drivers/mysqli.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/travis/mysqli.phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/web/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/number_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/order_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/libraries/parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/path_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/drivers/pdo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_4d_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_4d_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_cubrid_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_dblib_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_firebird_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_ibm_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_informix_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_informix_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_oci_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_oci_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_odbc_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_pgsql_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_sqlite_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/config/pgsql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/config/pdo/pgsql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/travis/pgsql.phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/travis/pdo/pgsql.phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/photos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/drivers/postgre.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/db/querybuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/require_login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/core/security.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/security_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/select_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/libraries/session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/schema/skeleton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/config/sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/config/pdo/sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/database/drivers/sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/travis/sqlite.phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/travis/pdo/sqlite.phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite3/sqlite3_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite3/sqlite3_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite3/sqlite3_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite3/sqlite3_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/string_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/libraries/table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/includes/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/text_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/truncate_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/libraries/typography.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/models/update_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/update_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/views/update_user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/libraries/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/models/upload_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/core/uri.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/url_helper_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/application/controllers/user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/libraries/useragent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/mocks/core/utf8.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/database/query_builder/where_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/darkroom.com/tests/codeigniter/helpers/xml_helper_test.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/application/controllers/welcome.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/application/errors/error_404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/application/errors/error_db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/application/errors/error_general.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/application/errors/error_php.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/application/views/welcome_message.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/system/database/DB_active_rec.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Javascript/Jquery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Sha1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/changelog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/active_record.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/caching.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/call_function.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/configuration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/connecting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/examples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/fields.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/forge.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/helpers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/queries.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/results.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/table_data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/transactions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/database/utilities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/doc_style/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/doc_style/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/alternative_php.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/ancillary_classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/autoloader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/caching.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/cli.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/common_functions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/controllers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/core_classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/creating_drivers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/creating_libraries.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/credits.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/drivers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/environments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/errors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/helpers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/hooks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/libraries.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/managing_apps.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/models.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/profiling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/quick_reference.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/requirements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/reserved_names.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/routing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/styleguide.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/urls.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/general/views.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/array_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/captcha_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/cookie_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/date_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/directory_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/download_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/email_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/file_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/form_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/html_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/inflector_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/language_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/number_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/path_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/security_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/smiley_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/string_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/text_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/typography_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/url_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/helpers/xml_helper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/appflowchart.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/ci_logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/ci_logo_flame.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/ci_quick_ref.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/codeigniter_1.7.1_helper_reference.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/codeigniter_1.7.1_helper_reference.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/codeigniter_1.7.1_library_reference.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/codeigniter_1.7.1_library_reference.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/file.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/folder.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/nav_bg_darker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/nav_separator_darker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/nav_toggle_darker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/reactor-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/images/transparent.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/downloads.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/troubleshooting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_120.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_130.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_131.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_132.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_133.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_140.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_141.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_150.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_152.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_153.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_154.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_160.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_161.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_162.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_163.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_170.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_171.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_172.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_200.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_201.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_202.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_203.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_210.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_211.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_212.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_213.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrade_b11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/installation/upgrading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/benchmark.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/caching.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/cart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/config.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/email.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/encryption.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/file_uploading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/form_validation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/ftp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/image_lib.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/input.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/javascript.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/language.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/loader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/migration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/parser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/sessions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/trackback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/typography.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/unit_testing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/uri.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/user_agent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/xmlrpc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/libraries/zip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/license.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/nav/hacks.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/nav/moo.fx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/nav/nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/nav/prototype.lite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/nav/user_guide_menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/overview/appflow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/overview/at_a_glance.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/overview/cheatsheets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/overview/features.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/overview/getting_started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/overview/goals.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/overview/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/overview/mvc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/tutorial/conclusion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/tutorial/create_news_items.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/tutorial/hard_coded_pages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/tutorial/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/tutorial/news_section.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/tutorial/static_pages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkroom.com/user_guide/userguide.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/darkroom.com/application/errors/index.html" afterPath="$PROJECT_DIR$/darkroom.com/application/views/errors/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/.gitignore" afterPath="$PROJECT_DIR$/darkroom.com/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/.htaccess" afterPath="$PROJECT_DIR$/darkroom.com/application/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/cache/.htaccess" afterPath="$PROJECT_DIR$/darkroom.com/application/cache/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/.htaccess" afterPath="$PROJECT_DIR$/darkroom.com/system/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/.travis.yml" afterPath="$PROJECT_DIR$/darkroom.com/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Benchmark.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Benchmark.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/Cache.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/Cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_apc.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_apc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_dummy.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_dummy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_file.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_file.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_memcached.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cache/drivers/Cache_memcached.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Calendar.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Calendar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Cart.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/CodeIgniter.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/CodeIgniter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Common.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Config.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Controller.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/DB.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/DB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/DB_cache.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/DB_cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/DB_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/DB_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/DB_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/DB_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/DB_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/DB_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/DB_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/DB_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Email.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Encrypt.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Encrypt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Exceptions.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Exceptions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Form_validation.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Form_validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Ftp.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Ftp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Hooks.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Hooks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Image_lib.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Image_lib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Input.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Input.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Javascript.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Javascript.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Loader.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Migration.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Migration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Model.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Output.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Output.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Pagination.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Pagination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Parser.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Profiler.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Profiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Router.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Security.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Security.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Table.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Trackback.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Trackback.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Typography.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Typography.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/URI.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/URI.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Unit_test.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Unit_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Upload.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/User_agent.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/User_agent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/core/Utf8.php" afterPath="$PROJECT_DIR$/darkroom.com/system/core/Utf8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Xmlrpc.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Xmlrpc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Xmlrpcs.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Xmlrpcs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/libraries/Zip.php" afterPath="$PROJECT_DIR$/darkroom.com/system/libraries/Zip.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/array_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/array_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/autoload.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/calendar_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/calendar_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/captcha_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/captcha_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/config.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/constants.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/cookie_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/cookie_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/cubrid/cubrid_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/cubrid/cubrid_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/cubrid/cubrid_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/cubrid/cubrid_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/cubrid/cubrid_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/cubrid/cubrid_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/cubrid/cubrid_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/cubrid/cubrid_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/database.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/date_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/date_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/date_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/date_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/db_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/db_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/directory_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/directory_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/doctypes.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/doctypes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/download_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/download_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/email_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/email_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/email_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/email_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/file_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/file_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/foreign_chars.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/foreign_chars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/form_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/form_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/form_validation_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/form_validation_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/ftp_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/ftp_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/hooks.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/hooks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/html_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/html_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/imglib_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/imglib_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/inflector_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/inflector_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/language_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/language_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/migration.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/migration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/migration_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/migration_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/mimes.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/mimes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mssql/mssql_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mssql/mssql_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mssql/mssql_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mssql/mssql_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mssql/mssql_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mssql/mssql_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mssql/mssql_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mssql/mssql_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysql/mysql_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysql/mysql_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysql/mysql_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysql/mysql_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysql/mysql_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysql/mysql_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysql/mysql_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysql/mysql_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysqli/mysqli_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysqli/mysqli_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysqli/mysqli_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysqli/mysqli_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysqli/mysqli_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysqli/mysqli_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysqli/mysqli_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/mysqli/mysqli_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/number_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/number_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/number_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/number_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/oci8/oci8_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/oci8/oci8_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/oci8/oci8_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/oci8/oci8_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/oci8/oci8_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/oci8/oci8_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/oci8/oci8_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/oci8/oci8_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/odbc/odbc_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/odbc/odbc_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/odbc/odbc_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/odbc/odbc_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/odbc/odbc_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/odbc/odbc_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/odbc/odbc_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/odbc/odbc_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/path_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/path_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/pdo_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/pdo_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/pdo_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/pdo_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/pdo_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/pdo_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/pdo_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/pdo/pdo_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/postgre/postgre_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/postgre/postgre_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/postgre/postgre_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/postgre/postgre_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/postgre/postgre_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/postgre/postgre_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/postgre/postgre_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/postgre/postgre_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/profiler.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/profiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/profiler_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/profiler_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/routes.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/security_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/security_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/smiley_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/smiley_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/smileys.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/smileys.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite/sqlite_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite/sqlite_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite/sqlite_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite/sqlite_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite/sqlite_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite/sqlite_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite/sqlite_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlite/sqlite_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlsrv/sqlsrv_driver.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlsrv/sqlsrv_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlsrv/sqlsrv_forge.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlsrv/sqlsrv_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlsrv/sqlsrv_result.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlsrv/sqlsrv_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlsrv/sqlsrv_utility.php" afterPath="$PROJECT_DIR$/darkroom.com/system/database/drivers/sqlsrv/sqlsrv_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/string_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/string_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/text_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/text_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/typography_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/typography_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/unit_test_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/unit_test_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/language/english/upload_lang.php" afterPath="$PROJECT_DIR$/darkroom.com/system/language/english/upload_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/url_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/url_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/config/user_agents.php" afterPath="$PROJECT_DIR$/darkroom.com/application/config/user_agents.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/system/helpers/xml_helper.php" afterPath="$PROJECT_DIR$/darkroom.com/system/helpers/xml_helper.php" />
-    </list>
+    <list default="true" id="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" name="Default" comment="" />
     <ignored path="darkroom.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373727125766" ignored="false" />
@@ -552,6 +22,7 @@
     <file path="/photos.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373982835122" ignored="false" />
     <file path="/upload_model.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373943648154" ignored="false" />
     <file path="/index.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373981664026" ignored="false" />
+    <file path="/footer.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373984338536" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -571,19 +42,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="album.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/album.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="188" vertical-scroll-proportion="9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photos.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="photos.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/photos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.7929515">
+            <state line="75" column="69" selection-start="2082" selection-end="2082" vertical-scroll-proportion="-46.875">
               <folding>
                 <element signature="e#1035#1074#0" expanded="true" />
               </folding>
@@ -591,19 +53,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkroom.com/web/index.php">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
+            <state line="23" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/includes/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="3" selection-end="143" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="69" selection-start="2448" selection-end="2448" vertical-scroll-proportion="-24.916666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="209" selection-end="426" vertical-scroll-proportion="-5.0">
+            <state line="64" column="69" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.74101794">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_user.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/add_user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="11.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="album.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/album.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="188" vertical-scroll-proportion="11.625">
               <folding />
             </state>
           </provider>
@@ -621,43 +119,16 @@
       <file leaf-file-name="require_login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/require_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.083333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/includes/header.php">
+      <file leaf-file-name="update_user.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/update_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/upload_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="-4.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_album_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/create_album_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="18" selection-start="821" selection-end="846" vertical-scroll-proportion="-21.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/delete_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="16.625">
               <folding />
             </state>
           </provider>
@@ -685,17 +156,20 @@
       <list>
         <option value="$PROJECT_DIR$/darkroom.com/application/models/login_model.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/admin_album.php" />
-        <option value="$PROJECT_DIR$/darkroom.com/application/views/login.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/update_user.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/models/delete_model.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/models/update_model.php" />
-        <option value="$PROJECT_DIR$/darkroom.com/application/views/includes/header.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/models/create_album_model.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/album.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/models/upload_model.php" />
         <option value="$PROJECT_DIR$/darkroom.com/web/index.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/controllers/user.php" />
+        <option value="$PROJECT_DIR$/darkroom.com/application/views/includes/footer.php" />
+        <option value="$PROJECT_DIR$/darkroom.com/web/js/main.js" />
+        <option value="$PROJECT_DIR$/darkroom.com/application/views/home.php" />
+        <option value="$PROJECT_DIR$/darkroom.com/application/views/login.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/photos.php" />
+        <option value="$PROJECT_DIR$/darkroom.com/application/views/includes/header.php" />
       </list>
     </option>
   </component>
@@ -759,24 +233,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="darkroom.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="darkroom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="darkroom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="darkroom.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1025,34 +481,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/add_user_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/login_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.375">
@@ -1063,20 +491,6 @@
     <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/create_album_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="18" selection-start="821" selection-end="846" vertical-scroll-proportion="-21.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="209" selection-end="426" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/album.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="188" vertical-scroll-proportion="9.375">
           <folding />
         </state>
       </provider>
@@ -1095,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/darkroom.com/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
@@ -1116,19 +523,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/web/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="7" selection-start="516" selection-end="516" vertical-scroll-proportion="0.63829786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="3" selection-end="143" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/add_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="11.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="188" vertical-scroll-proportion="11.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="69" selection-start="2448" selection-end="2448" vertical-scroll-proportion="-24.916666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/update_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="16.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/require_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.083333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/photos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.7929515">
+        <state line="75" column="69" selection-start="2082" selection-end="2082" vertical-scroll-proportion="-46.875">
           <folding>
             <element signature="e#1035#1074#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="69" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.74101794">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -20,6 +20,8 @@
   ================================================== -->
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
+
 
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700,300,200' rel='stylesheet' type='text/css'>
 
