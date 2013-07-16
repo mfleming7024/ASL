@@ -13,7 +13,7 @@ class User extends CI_Controller {
         $data['main'] = 'login';
         $this->load->view('includes/template', $data);
     }
-    
+
     function logout(){
         $this->session->sess_destroy();
         redirect('http://darkroom.com/');
@@ -111,6 +111,7 @@ class User extends CI_Controller {
 
         $result = $this->create_album_model->get($id);
         $query2 = $this->create_album_model->get2();
+        $this->create_album_model->add_album();
         $data['id'] = $this->uri->segment(3);
         $data['main'] = 'album';
         $data['result'] = $result;
@@ -123,11 +124,13 @@ class User extends CI_Controller {
 
         $this->load->library('upload');
         $data['main'] = 'photos';
+        $data['id'] = $this->uri->segment(3);
+
         $data['error'] = $this->upload->display_errors();
         $this->load->view('includes/template', $data);
     }
 
-    function uploads($id = 0)
+    function uploads()
     {
         $config['upload_path'] = './uploads/';
         $config['allowed_types'] = 'gif|jpg|png';
@@ -146,16 +149,15 @@ class User extends CI_Controller {
         }
         else
         {
-            $this->load->model('upload_model');
+            $this->load->model('upload_model
+            //$id = $this->uri->segment(3);
+            var_dump($id);');
 
-            $data['id'] = $this->uri->segment(3);
-            //echo $id;
             $data = $this->upload->data();
-            $this->upload_model->insert_file($data['file_name'],$id);
+            $this->upload_model->insert_file($data['file_na,$idme']);
             $data['error'] = $this->upload->display_errors();
             $data['main'] = 'photos';
             $this->load->view('includes/template', $data);
-
         }
     }
 

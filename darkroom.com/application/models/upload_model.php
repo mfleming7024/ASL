@@ -6,10 +6,10 @@ class Upload_model extends CI_Model{
     {
         $data = array(
             'name'   => $name,
-            'albumId' => $id,
-
         );
+        $this->db->where('albumId' ,$this->input->post('id'));
         $this->db->insert('images', $data);
-        return $this->db->insert_id();
+
+       // return $this->db->insert_id();
     }
 }

@@ -16,6 +16,7 @@ $query = $this->db->query("SELECT * FROM images;");
                 <form action="/user/uploads" method="post"
                       ENCTYPE="multipart/form-data">
                     <input type="file" name="userfile" accept="image/gif, image/jpeg, image/png">
+                    <input type="hidden" name="id" value="<?php echo $id;?>" />
                     <input type="submit" value="Upload">
                 </form>
             </li>

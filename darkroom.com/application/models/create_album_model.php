@@ -21,8 +21,6 @@ class Create_album_model extends CI_Model{
     }
 
     function get($id){
-
-
         $query = $this->db->get_where('users', array('userId' => $id));
         $result = $query->row_array();
         return $result;

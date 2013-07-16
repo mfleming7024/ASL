@@ -21,7 +21,6 @@
     <div id="admin_bg">
         <ul class="albums">
         <?php
-        //var_dump($query2);
         foreach($query2->result() as $row){
             //echo $row->userId;
             if($row->userId == $id){
