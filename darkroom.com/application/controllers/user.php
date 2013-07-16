@@ -113,12 +113,12 @@ class User extends CI_Controller {
         $query2 = $this->create_album_model->get2();
         $this->create_album_model->add_album();
 
-        $data['main'] = 'album';
+       // $data['main'] = 'album';
 
         $data['id'] = $this->uri->segment(3);
         $data['result'] = $result;
         $data['query2'] = $query2;
-        $this->load->view('includes/template', $data);
+        $this->album($id);
 
         }
 
@@ -164,9 +164,10 @@ class User extends CI_Controller {
             $this->upload_model->insert_file($data['file_name']);
             $query2 = $this->upload_model->get2();
 
+
             $data['result'] = $result;
-            $data = $this->uri->segment(3);
             $data['id'] = $this->uri->segment(3);
+
             $data['query2'] = $query2;
             $data['error'] = $this->upload->display_errors();
             $data['main'] = 'photos';

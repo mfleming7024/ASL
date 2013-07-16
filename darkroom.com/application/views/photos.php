@@ -13,7 +13,7 @@ $query = $this->db->query("SELECT * FROM images;");
             <li class="add_user"><h3>Upload Images</h3></li>
             <li>
                 <?php echo $error;?>
-                <form action="/user/uploads" method="post"
+                <form action="/user/uploads/<?php echo $id ;?>" method="post"
                       ENCTYPE="multipart/form-data">
                     <input type="file" name="userfile" accept="image/gif, image/jpeg, image/png">
                     <input type="hidden" name="id" value="<?php echo $id;?>" />
