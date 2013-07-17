@@ -23,11 +23,6 @@ class Upload_model extends CI_Model{
         $query = $this->db->get_where('images', array('albumId' => $id));
         $result = $query->row_array();
         return $result;
-
-//        $this->load->database();
-//        $query = $this->db->get_where('images', array('albumId' => $id));
-//        return $query->row_array();
-        // echo $result;
     }
 
     function get2(){
@@ -36,5 +31,11 @@ class Upload_model extends CI_Model{
         return $query2;
         foreach($query2->result() as $row){
         }
+    }
+
+    function get3($id){
+        $query = $this->db->get_where('album', array('albumId' => $id));
+        $result = $query->row_array();
+        return $result;
     }
 }

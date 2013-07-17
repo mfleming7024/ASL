@@ -40,10 +40,11 @@
         <?php
 
         $username = $this->session->userdata('username');
+        $usertype = $this->session->userdata('userType');
 
         if($this->session->userdata('is_logged_in')){
-
-        echo '
+            if($usertype == 1){
+                echo '
         <div id="topNav">
             <ul>
                 <li class="plans"> <a href="/user/admin">admin</a>
@@ -51,11 +52,13 @@
             </ul>
         </div> <!-- end topNav -->
         ';
-
-        echo '<div id="greeting">';
-		echo '		<h4>Welcome, <span>';  echo $username; echo '</span></h4> ';
-        echo  '</div> ';
+            }
+            echo '<div id="greeting">';
+            echo '		<h4>Welcome, <span>';  echo $username; echo '</span></h4> ';
+            echo  '</div> ';
             echo '<a href="/user/logout"><button class="btn_logout">LOGOUT</button></a>';
+
+
         }else{
             echo '<form id="inputs" action="home/process" enctype="multipart/form-data" method="post">';
             echo '<input class="inputs" name="username" id="username" placeholder="Username" > ';

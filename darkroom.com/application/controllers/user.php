@@ -8,13 +8,23 @@ class User extends CI_Controller {
         $this->load->helper(array('form', 'url'));
     }
 
-    function admin(){
+    function admin($id = ''){
         $this->load->model('admin_model');
-        $query = $this->admin_model->get();
+       $query = $this->admin_model->get();
 
-        $data['query'] = $query;
-        $data['main'] = 'admin';
-        $this->load->view('includes/template', $data);
+        $this->load->model('admin_model');
+        $type = $this->admin_model->usertype($id);
+        $uid = $this->session->userdata('userType');
+        //echo $uid;
+        if($uid == 1){
+            $data['query'] = $query;
+            $data['main'] = 'admin';
+            $this->load->view('includes/template', $data);
+        }elseif($uid == 2){
+            redirect('user/user_album');
+        }
+
+
 
     }
     function users(){
@@ -116,37 +126,48 @@ class User extends CI_Controller {
 
         $result = $this->create_album_model->get($id);
         $query2 = $this->create_album_model->get2();
-        $data['id'] = $this->uri->segment(3);
-        $data['main'] = 'album';
-        $data['result'] = $result;
-        $data['query2'] = $query2;
-        $this->load->view('includes/template', $data);
+
+
+
+
+        $this->load->model('admin_model');
+        $type = $this->admin_model->usertype($id);
+        $uid = $this->session->userdata('userType');
+        //echo $uid;
+        if($uid == 1){
+
+            $data['id'] = $this->uri->segment(3);
+            $data['main'] = 'album';
+            $data['result'] = $result;
+            $data['query2'] = $query2;
+            $this->load->view('includes/template', $data);
+        }elseif($uid == 2){
+            redirect('user/user_album');
+        }
+
+
+
     }
 
-    function user_album($id = 58){
+    function user_album($id = ''){
 
-        $this->load->model('admin_model');
-        $query = $this->admin_model->get();
-        $Lol = $this->session->all_userdata();
-
-        $uid = $this->session->userdata('userId');
-
-//        $data['uid'] = $uid;
-//        $data['query'] = $query;
-//        $data['main'] = 'user_album';
-//        $this->load->view('includes/template', $data);
-
-
-
+       // $this->load->model('admin_model');
         $this->load->model('create_album_model');
+        $uid = $this->session->userdata('userId');
+        $lastname = $this->session->userdata('lastname');
+        $firstname = $this->session->userdata('firstname');
 
         $result = $this->create_album_model->get($id);
         $query2 = $this->create_album_model->get2();
+
+        $data['firstname'] = $firstname;
+        $data['lastname'] = $lastname;
         $data['id'] = $uid;
         $data['main'] = 'user_album';
         $data['result'] = $result;
         $data['query2'] = $query2;
         $this->load->view('includes/template', $data);
+        //var_dump($result);
     }
 
     function create_album($id = 0){
@@ -166,31 +187,47 @@ class User extends CI_Controller {
 
         }
 
-    function photos(){
+    function photos($id = ''){
 
         $this->load->library('upload');
 
         $this->load->model('upload_model');
-
+        $result = $this->upload_model->get3($id);
         $query2 = $this->upload_model->get2();
 
-        $data['main'] = 'photos';
-        $data['id'] = $this->uri->segment(3);
-        $data['query2'] = $query2;
-        $data['error'] = $this->upload->display_errors();
-        $this->load->view('includes/template', $data);
+
+
+        $this->load->model('admin_model');
+        $type = $this->admin_model->usertype($id);
+        $uid = $this->session->userdata('userType');
+        //echo $uid;
+        if($uid == 1){
+
+            $data['main'] = 'photos';
+            $data['id'] = $this->uri->segment(3);
+            $data['query2'] = $query2;
+            $data['result'] = $result;
+            $data['error'] = $this->upload->display_errors();
+            $this->load->view('includes/template', $data);
+        }elseif($uid == 2){
+            redirect('user/user_album');
+        }
+
+
+
     }
-    function user_photos(){
+    function user_photos($id = ''){
 
         $this->load->library('upload');
 
         $this->load->model('upload_model');
-
+        $result = $this->upload_model->get3($id);
         $query2 = $this->upload_model->get2();
 
         $data['main'] = 'user_photos';
         $data['id'] = $this->uri->segment(3);
         $data['query2'] = $query2;
+        $data['result'] = $result;
         $data['error'] = $this->upload->display_errors();
         $this->load->view('includes/template', $data);
     }
@@ -217,18 +254,19 @@ class User extends CI_Controller {
             $this->load->model('upload_model');
 
             $result = $this->upload_model->get($id);
-
+            $result2 = $this->upload_model->get3($id);
             $data = $this->upload->data();
             $this->upload_model->insert_file($data['file_name']);
             $query2 = $this->upload_model->get2();
 
-            $data['result'] = $result;
+           // $data['result'] = $result;
             $data['id'] = $this->uri->segment(3);
-
+            $data['result'] = $result2;
             $data['query2'] = $query2;
             $data['error'] = $this->upload->display_errors();
             $data['main'] = 'photos';
             $this->load->view('includes/template', $data);
+
         }
     }
 

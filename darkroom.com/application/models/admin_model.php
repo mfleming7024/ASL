@@ -42,11 +42,19 @@ class Admin_model extends CI_Model{
                 $userId = $result[0]['userId'];
                 $usId = $userId;
 
+                $lastn = $result[0]['lastname'];
+                $last = $lastn;
+
+                $firstn = $result[0]['firstname'];
+                $first = $firstn;
+
                 $data = array(
                     'username' => $this->input->post('username'),
                     'is_logged_in' => true,
                     'userType' => $uid,
-                    'userId' => $usId
+                    'userId' => $usId,
+                    'lastname' => $last,
+                    'firstname' => $first
                 );
 
                 $this->session->set_userdata($data);

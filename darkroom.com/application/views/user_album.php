@@ -1,7 +1,7 @@
 <div id="middle_two" class="clearfix">
     <div id="view_user">
         <h3><?php
-            echo $result['lastname'] . ", " . $result['firstname'] ;?></h3>
+            echo $lastname . ", " . $firstname ;?></h3>
     </div>
     <nav id="admin_nav">
 <!--        <ul id="upload_bar">-->

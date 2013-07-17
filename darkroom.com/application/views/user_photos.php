@@ -1,6 +1,7 @@
 <div id="middle_two" class="clearfix">
     <div id="view_photos">
-        <h3></h3>
+        <h3><?php
+            echo $result['albumName'];?></h3>
     </div>
     <nav id="admin_nav">
 
