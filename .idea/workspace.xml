@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" name="Default" comment="" />
+    <list default="true" id="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/logs/access_log" afterPath="$PROJECT_DIR$/darkroom.com/logs/access_log" />
+    </list>
     <ignored path="darkroom.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373727125766" ignored="false" />
@@ -33,6 +35,7 @@
     <file path="/Applications/MAMP/htdocs/untitled folder/postList.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1374076033883" ignored="false" />
     <file path="/user_photos.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1374088443229" ignored="false" />
     <file path="/user_album.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1374090171082" ignored="false" />
+    <file path="/main.css" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1374092348172" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +55,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.2515244">
+            <state line="11" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="-3.367347">
               <folding />
             </state>
           </provider>
@@ -74,6 +77,15 @@
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/admin_model.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="56" column="41" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-23.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/darkroom.com/web/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="152" column="120" selection-start="3615" selection-end="3615" vertical-scroll-proportion="0.69865066">
               <folding />
             </state>
           </provider>
@@ -100,7 +112,7 @@
       <file leaf-file-name="photos.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/photos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="101" selection-end="124" vertical-scroll-proportion="-1.875">
+            <state line="3" column="17" selection-start="101" selection-end="124" vertical-scroll-proportion="3.5">
               <folding />
             </state>
           </provider>
@@ -128,15 +140,6 @@
                 <marker date="1374088528000" expanded="true" signature="228:363" placeholder="..." />
                 <marker date="1374088528000" expanded="true" signature="986:1239" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/upload_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="44" selection-start="953" selection-end="953" vertical-scroll-proportion="-22.5">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -171,7 +174,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/darkroom.com/application/views/includes/footer.php" />
-        <option value="$PROJECT_DIR$/darkroom.com/web/css/main.css" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/admin.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/models/create_album_model.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/models/update_model.php" />
@@ -186,6 +188,7 @@
         <option value="$PROJECT_DIR$/darkroom.com/application/views/user_album.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/photos.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/controllers/user.php" />
+        <option value="$PROJECT_DIR$/darkroom.com/web/css/main.css" />
       </list>
     </option>
   </component>
@@ -249,6 +252,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="darkroom.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="darkroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="darkroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="darkroom.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="darkroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="darkroom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="darkroom.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,13 +562,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/require_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/update_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="60" selection-start="1734" selection-end="1734" vertical-scroll-proportion="-20.625">
@@ -611,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/admin_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="41" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-23.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/user_album.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="42" selection-start="124" selection-end="124" vertical-scroll-proportion="-1.875">
@@ -625,16 +654,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/photos.php">
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="101" selection-end="124" vertical-scroll-proportion="-1.875">
+        <state line="11" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="-3.367347">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/user.php">
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/admin_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.2515244">
+        <state line="56" column="41" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-23.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/views/photos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="101" selection-end="124" vertical-scroll-proportion="3.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="120" selection-start="3615" selection-end="3615" vertical-scroll-proportion="0.69865066">
           <folding />
         </state>
       </provider>
