@@ -26,7 +26,7 @@
                 if($row->userId == $id){
                     //echo '<ul class="albums">' ;
                     echo '<li class="item-type-1">';
-                    echo '<a href="/user/photos/'.$row->albumId.'">';
+                    echo '<a href="/user/user_photos/'.$row->albumId.'">';
                     echo '<span>'.$row->albumName.'</span>';
                     echo '<img src="/img/1.jpg" height="120" width="160">';
                     echo '</a>';

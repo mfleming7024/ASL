@@ -15,6 +15,19 @@ class User extends CI_Controller {
         $data['query'] = $query;
         $data['main'] = 'admin';
         $this->load->view('includes/template', $data);
+
+    }
+    function users(){
+        $this->load->model('admin_model');
+        $query = $this->admin_model->get();
+        $Lol = $this->session->all_userdata();
+
+        $uid = $this->session->userdata('userId');
+
+        $data['uid'] = $uid;
+        $data['query'] = $query;
+        $data['main'] = 'user_album';
+        $this->load->view('includes/template', $data);
     }
 
     function logout(){
@@ -110,14 +123,27 @@ class User extends CI_Controller {
         $this->load->view('includes/template', $data);
     }
 
-    function user_album($id){
+    function user_album($id = 58){
+
+        $this->load->model('admin_model');
+        $query = $this->admin_model->get();
+        $Lol = $this->session->all_userdata();
+
+        $uid = $this->session->userdata('userId');
+
+//        $data['uid'] = $uid;
+//        $data['query'] = $query;
+//        $data['main'] = 'user_album';
+//        $this->load->view('includes/template', $data);
+
+
 
         $this->load->model('create_album_model');
 
         $result = $this->create_album_model->get($id);
         $query2 = $this->create_album_model->get2();
-        $data['id'] = $this->uri->segment(3);
-        $data['main'] = 'album';
+        $data['id'] = $uid;
+        $data['main'] = 'user_album';
         $data['result'] = $result;
         $data['query2'] = $query2;
         $this->load->view('includes/template', $data);
@@ -149,6 +175,20 @@ class User extends CI_Controller {
         $query2 = $this->upload_model->get2();
 
         $data['main'] = 'photos';
+        $data['id'] = $this->uri->segment(3);
+        $data['query2'] = $query2;
+        $data['error'] = $this->upload->display_errors();
+        $this->load->view('includes/template', $data);
+    }
+    function user_photos(){
+
+        $this->load->library('upload');
+
+        $this->load->model('upload_model');
+
+        $query2 = $this->upload_model->get2();
+
+        $data['main'] = 'user_photos';
         $data['id'] = $this->uri->segment(3);
         $data['query2'] = $query2;
         $data['error'] = $this->upload->display_errors();

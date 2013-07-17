@@ -9,9 +9,14 @@ class Home extends CI_Controller{
     }
 
 
-    function index($msg = NULL){
+    function index($id = ''){
+
+        $this->load->model('admin_model');
+
+        $usertype = $this->admin_model->usertype($id);
 
         $data['main'] = 'home';
+        $usertype['id'] = $usertype;
         $this->load->view('includes/template', $data);
 
     }
@@ -21,7 +26,7 @@ class Home extends CI_Controller{
         $this->load->model('admin_model');
         // Validate the user can login
         $result = $this->admin_model->validate();
-        $this->admin_model->usertype($id);
+        //$this->admin_model->usertype($id);
         // Now we verify the result
         if(! $result){
             // If user did not validate, then show them login page again
@@ -29,24 +34,14 @@ class Home extends CI_Controller{
             $this->index($msg);
         }else{
             $this->load->model('admin_model');
-
-            $this->admin_model->usertype($id);
-            if($id == 1){
-                $this->load->model('admin_model');
-
-                $this->admin_model->usertype($id);
+            $type = $this->admin_model->usertype($id);
+            $uid = $this->session->userdata('userType');
+            //echo $uid;
+            if($uid == 1){
                 redirect('user/admin');
-            }elseif($id == 2){
-                $this->load->model('admin_model');
-
-                $this->admin_model->usertype($id);
+            }elseif($uid == 2){
                 redirect('user/user_album');
             }
-//            $this->load->model('admin_model');
-//
-//            $this->admin_model->usertype($id);
-//            // If user did validate,
-//            // Send them to members area
 
         }
     }

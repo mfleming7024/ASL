@@ -21,9 +21,32 @@ class Admin_model extends CI_Model{
         {
 
             if($query){
+
+//                $result = $query->result_array();
+//                switch ($result['usergroup']) {
+//                    case '1':
+//                        redirect 'home';
+//                break;
+//                    case '2':
+//                        redirect 'admin';
+//                break;
+//                    default:
+//                        redirect 'home';
+//                break;
+//                        }
+
+                $result = $query->result_array();
+                $usertype = $result[0]['userType'];
+                $uid = $usertype;
+
+                $userId = $result[0]['userId'];
+                $usId = $userId;
+
                 $data = array(
                     'username' => $this->input->post('username'),
-                    'is_logged_in' => true
+                    'is_logged_in' => true,
+                    'userType' => $uid,
+                    'userId' => $usId
                 );
 
                 $this->session->set_userdata($data);
@@ -46,12 +69,45 @@ class Admin_model extends CI_Model{
         }
 
     }
-    function usertype($id){
-        $this->load->database();
-        $query = $this->db->get_where('users', array('userType' => $id));
-        return $query->row_array();
+    public function usertype(){
+       $this->load->database();
+//       $query = $this->db->get_where('users', array('userType' => $id));
+//       return $query->result();
 
-        echo $id;
+//        $new_user_insert_data = array(
+//            'userType' => $id,
+//
+//        );
+//
+//        $query = $this->db->get('users', $new_user_insert_data);
+//        return $query->result();
+
+        $this->db->select('userType');
+        $this->db->where('userType');
+        $query = $this->db->get('users');
+
+        return $query->result();
+
+
+//        $this->db->where('userType', $id);
+//        $query = $this->db->get('users');
+//        if($query->num_results() ==1)
+//        {
+//            $result = $query->result_array();
+//            switch ($result['usergroup']) {
+//                case '1':
+//                    redirect 'home';
+//        break;
+//                case '2':
+//                    redirect 'admin';
+//        break;
+//                default:
+//                    redirect 'home';
+//        break;
+//            }
+//        }
+
+
     }
 }
 ?>
