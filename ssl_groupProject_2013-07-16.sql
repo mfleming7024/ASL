@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.29)
 # Database: ssl_groupProject
-# Generation Time: 2013-07-16 19:01:57 +0000
+# Generation Time: 2013-07-17 03:12:52 +0000
 # ************************************************************
 
 
@@ -39,7 +39,6 @@ LOCK TABLES `album` WRITE;
 
 INSERT INTO `album` (`albumId`, `albumName`, `userId`)
 VALUES
-	(205,'Chicks',46),
 	(206,'album name',31);
 
 /*!40000 ALTER TABLE `album` ENABLE KEYS */;
@@ -84,9 +83,6 @@ LOCK TABLES `images` WRITE;
 
 INSERT INTO `images` (`imgId`, `name`, `userId`, `albumId`)
 VALUES
-	(127,'beach_26-wallpaper-1440x9001.jpg',NULL,205),
-	(128,'chicago_late_evening-wallpaper-1440x9002.jpg',NULL,205),
-	(129,'branch_macro-wallpaper-1440x9001.jpg',NULL,205),
 	(130,'apple_on_the_ground-wallpaper-1440x900.jpg',NULL,206),
 	(131,'chicago_late_evening-wallpaper-1440x9003.jpg',NULL,206);
 
@@ -108,19 +104,19 @@ CREATE TABLE `users` (
   `email` varchar(55) DEFAULT NULL,
   `date` date DEFAULT NULL,
   `notes` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`userId`)
+  `userType` int(11) DEFAULT NULL,
+  PRIMARY KEY (`userId`),
+  KEY `usertypefk` (`userType`),
+  CONSTRAINT `usertypefk` FOREIGN KEY (`userType`) REFERENCES `userType` (`userTypeId`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 
-INSERT INTO `users` (`userId`, `username`, `password`, `lastname`, `firstname`, `email`, `date`, `notes`)
+INSERT INTO `users` (`userId`, `username`, `password`, `lastname`, `firstname`, `email`, `date`, `notes`, `userType`)
 VALUES
-	(31,'user','ee11cbb19052e40b07aac0ca060c23ee','Angeles','Erwin','user@user.com','2013-07-31',''),
-	(42,'album','a4b2d20f456833bcdac42e73edad64c0','Last Name Album','First Name Album','album@yahoo.com','2013-07-31','Test for albums'),
-	(43,'jenny','ebe6941ee8a10c14dc933ae37a0f43fc','Bob','Jenny','jenny@jenny.com','2013-07-18','Today'),
-	(44,'users','9bc65c2abec141778ffaa729489f3e87','last','first','user@user.com','2013-07-26','Wants to '),
-	(46,'lol','9cdfb439c7876e703e307864c9167a15','EDITED Bond','James','lol@yahoo.com','2013-07-31','lol');
+	(31,'admin','21232f297a57a5a743894a0e4a801fc3','Angeles','Erwin','admin@admin','2013-07-31','Is the admin yo!',1),
+	(58,'user','ee11cbb19052e40b07aac0ca060c23ee','User','User','user@user.com','2013-07-31','Is the user yo!',2);
 
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;

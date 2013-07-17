@@ -56,19 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="50" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-17.75">
+            <state line="28" column="31" selection-start="727" selection-end="727" vertical-scroll-proportion="0.5947136">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/admin_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="2" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.91189426">
+            <state line="34" column="9" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-12.125">
               <folding />
             </state>
           </provider>
@@ -612,16 +612,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/home.php">
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/admin_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="50" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-17.75">
+        <state line="34" column="9" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-12.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/admin_model.php">
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="2" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.91189426">
+        <state line="28" column="31" selection-start="727" selection-end="727" vertical-scroll-proportion="0.5947136">
           <folding />
         </state>
       </provider>
