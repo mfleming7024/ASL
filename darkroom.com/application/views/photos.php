@@ -38,7 +38,7 @@
 <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="/js/lightbox-2.6.min.js"></script>
 <div id="footer_goal" class="clearfix">
-    <div id="footer_column">o
+    <div id="footer_column">
 
         <div class="admin_col">
             <img class="footer_logo"src="/img/logo.png" alt="Orgame Logo">

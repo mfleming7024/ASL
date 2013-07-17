@@ -15,6 +15,8 @@
         </div> <!--end goalmanager -->
         <div class="add_goal_panel"> <!-- end color_coding -->
             <form action="/user/perform_register" id="add_info" enctype="multipart/form-data" method="post">
+                <h3>User Type:</h3>
+                <select name="user_type"><option value="2">User</option><option value="1">Admin</option></select>
                 <h3>Last Name:</h3>
                 <input id="goalName" name="lastname" placeholder="Last Name" >
                 <?php echo form_error('lastname'); ?>

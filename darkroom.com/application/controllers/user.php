@@ -35,10 +35,10 @@ class User extends CI_Controller {
         $this->load->view('includes/template', $data);
     }
 
-    function admin_albums(){
-        $data['main'] = 'admin_album';
-        $this->load->view('includes/template', $data);
-    }
+//    function admin_albums(){
+//        $data['main'] = 'admin_album';
+//        $this->load->view('includes/template', $data);
+//    }
 
     function perform_register(){
         $this->load->library('form_validation');
@@ -98,6 +98,19 @@ class User extends CI_Controller {
 
     }
     function album($id){
+
+        $this->load->model('create_album_model');
+
+        $result = $this->create_album_model->get($id);
+        $query2 = $this->create_album_model->get2();
+        $data['id'] = $this->uri->segment(3);
+        $data['main'] = 'album';
+        $data['result'] = $result;
+        $data['query2'] = $query2;
+        $this->load->view('includes/template', $data);
+    }
+
+    function user_album($id){
 
         $this->load->model('create_album_model');
 

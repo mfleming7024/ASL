@@ -11,6 +11,7 @@ class Add_user_model extends CI_Model{
             'email' => $this->input->post('email'),
             'date' => $this->input->post('dateInput'),
             'notes' => $this->input->post('notes'),
+            'userType' => $this->input->post('user_type'),
         );
 
         $insert = $this->db->insert('users', $new_user_insert_data);
