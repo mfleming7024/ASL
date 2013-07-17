@@ -46,5 +46,12 @@ class Admin_model extends CI_Model{
         }
 
     }
+    function usertype($id){
+        $this->load->database();
+        $query = $this->db->get_where('users', array('userType' => $id));
+        return $query->row_array();
+
+        echo $id;
+    }
 }
 ?>
