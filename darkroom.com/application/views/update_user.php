@@ -1,11 +1,3 @@
-<?php
-$id = $this->uri->segment(3);
-$query = $this->db->get_where('users', array('userId' => $id));
-$result = $query->row_array();
-
-?>
-
-
 <div class ="wrapper">
     <div id="top" class="clearfix">
         <div class="header">
@@ -48,7 +40,7 @@ $result = $query->row_array();
         </div> <!-- end goal-->
 
         <div id="btm_add_goal">
-            <a href="/user/login"><h3>Back</h3></a>
+            <a href="/user/admin"><h3>Back</h3></a>
         </div> <!--end goalmanager -->
     </div> <!-- end middle-->
 

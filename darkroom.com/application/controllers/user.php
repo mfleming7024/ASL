@@ -8,9 +8,12 @@ class User extends CI_Controller {
         $this->load->helper(array('form', 'url'));
     }
 
-    function login(){
+    function admin(){
+        $this->load->model('admin_model');
+        $query = $this->admin_model->get();
 
-        $data['main'] = 'login';
+        $data['query'] = $query;
+        $data['main'] = 'admin';
         $this->load->view('includes/template', $data);
     }
 
@@ -56,7 +59,7 @@ class User extends CI_Controller {
         }else{
             $this->load->model('add_user_model');
             if($query = $this->add_user_model->add_user()){
-                $this->login();
+                $this->admin();
             }else{
                 $data['main'] = 'add_user';
                 $this->load->view('includes/template', $data);
@@ -70,15 +73,17 @@ class User extends CI_Controller {
             $this->delete_model->delete($id);
         }
 
-        $this->login();
+        $this->admin();
     }
 
     function update($id){
         $this->load->model('update_model');
 
+        $result = $this->update_model->get($id);
+
         $data['main'] = 'update_user';
         $data['id'] = $id;
-
+        $data['result'] = $result;
         $this->load->view('/includes/template',$data);
 
     }
@@ -89,7 +94,7 @@ class User extends CI_Controller {
 
         $this->update_model->update_users();
 
-        $this->login();
+        $this->admin();
 
     }
     function album($id){

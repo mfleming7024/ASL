@@ -35,25 +35,23 @@
         <div class="logo">
             <a href="/"><img src="/img/logo.png" alt="Orgame Logo"></a>
         </div> <!-- end logo -->
-        <div id="topNav">
-            <ul>
-                <li class="plans"> <a href="">about</a>
-                <li class="plans"> <a href="">image gallery</a>
-            </ul>
-        </div> <!-- end topNav -->
-        <!--        <div id="inputs">-->
 
-
-        <!--            <input class="inputs" name="username" id="username" placeholder="Username" >-->
-        <!--            <input class="inputs" name="password" id="password" placeholder="Password" >-->
-        <!--            <input type="button" name="login" value="LOGIN">LOGIN</input>-->
-        <!--        </div> <!-- end inputs -->
 
         <?php
 
         $username = $this->session->userdata('username');
 
         if($this->session->userdata('is_logged_in')){
+
+        echo '
+        <div id="topNav">
+            <ul>
+                <li class="plans"> <a href="/user/admin">admin</a>
+
+            </ul>
+        </div> <!-- end topNav -->
+        ';
+
         echo '<div id="greeting">';
 		echo '		<h4>Welcome, <span>';  echo $username; echo '</span></h4> ';
         echo  '</div> ';

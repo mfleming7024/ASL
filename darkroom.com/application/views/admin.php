@@ -4,16 +4,7 @@
         return confirm("Are you sure you want to delete this record?")
     }
 </script>
-<?php
 
-$query = $this->db->query("SELECT * FROM users;");
-
-foreach ($query->result('User') as $row)
-{
-   // echo $row->lastname; // call attributes
-    //echo $row->reverse_name(); // or methods defined on the 'User' class
-}
-?>
 
 </div> <!-- end top -->
 

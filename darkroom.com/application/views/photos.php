@@ -1,9 +1,3 @@
-<?php
-
-$query = $this->db->query("SELECT * FROM images;");
-
-
-?>
 <div id="middle_two" class="clearfix">
     <div id="view_photos">
         <h3></h3>
@@ -37,11 +31,6 @@ $query = $this->db->query("SELECT * FROM images;");
                 }
             }
             ?>
-
-
-
-
-
         </ul>
     </div>
 
@@ -49,7 +38,7 @@ $query = $this->db->query("SELECT * FROM images;");
 <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="/js/lightbox-2.6.min.js"></script>
 <div id="footer_goal" class="clearfix">
-    <div id="footer_column">
+    <div id="footer_column">o
 
         <div class="admin_col">
             <img class="footer_logo"src="/img/logo.png" alt="Orgame Logo">

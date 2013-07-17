@@ -51,7 +51,7 @@ a{
 
 #inputs{
 	float: left;
-	padding-left: 155px;
+	padding-left: 435px;
 }
 
 #inputs input{
@@ -99,7 +99,7 @@ a{
 #greeting{
 	float: left;
 	font-family: 'Titillium Web', sans-serif;
-	margin-left: 310px;
+	margin-left: 390px;
 	margin-top: -12px;
 	font-size: 1.2em;
 	color: #fff;
