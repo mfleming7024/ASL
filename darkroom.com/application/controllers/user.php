@@ -113,15 +113,19 @@ class User extends CI_Controller {
         $this->admin();
     }
     function delete_album($id = 0){
+
+        $uid = $this->session->userdata("viewedUserId");
+
         $this->load->model('delete_model');
         if((int)$id > 0){
             $this->delete_model->album_delete($id);
         }
 
         $this->load->model('admin_model');
-        $uid = $this->admin_model->get();
+        //$uid = $this->admin_model->get();
 
-        redirect("user/album/'61'");
+
+        redirect("user/album/$uid");
 //        $this->load->model('create_album_model');
 //        $query2 = $this->create_album_model->get2();
 //        $result = $this->create_album_model->get($id);
