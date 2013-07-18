@@ -983,9 +983,16 @@ border: 0;
 
 /* =========== Input Form =========== */
 
+#back_btn {
+	float: left;
+	height: 50px;
+	padding-top: 13px;
+	width: 100px;
+}
+
 #upload_bar {
 	overflow: hidden;
-	width: 960px;
+	width: 900px;
 	padding-top: 3px;
 }
 
