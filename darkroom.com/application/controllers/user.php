@@ -68,6 +68,7 @@ class User extends CI_Controller {
         $this->form_validation->set_rules('lastname','Last name', 'trim|required');
         $this->form_validation->set_rules('firstname','First name', 'trim|required');
         $this->form_validation->set_rules('username','Username', 'trim|required');
+        $this->form_validation->set_rules('username', 'Username exists', 'callback_rolekey_exists');
         $this->form_validation->set_rules('password','Password', 'trim|required');
         $this->form_validation->set_rules('email','Email', 'trim|required|valid_email');
         $this->form_validation->set_rules('dateInput','Date', 'required');
@@ -87,6 +88,12 @@ class User extends CI_Controller {
             };
         }
     }
+    function rolekey_exists($key)
+    {
+        $this->load->model('add_user_model');
+        $this->add_user_model->role_exists($key);
+    }
+
     function delete($id){
         $this->load->model('delete_model');
 

@@ -13,9 +13,20 @@ class Add_user_model extends CI_Model{
             'notes' => $this->input->post('notes'),
             'userType' => $this->input->post('user_type'),
         );
-        
+
         $insert = $this->db->insert('users', $new_user_insert_data);
         return $insert;
+    }
+    function role_exists($key)
+    {
+        $this->db->where('username',$key);
+        $query = $this->db->get('users');
+        if ($query->num_rows() > 0){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
 }

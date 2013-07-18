@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/models/add_user_model.php" afterPath="$PROJECT_DIR$/darkroom.com/application/models/add_user_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/logs/access_log" afterPath="$PROJECT_DIR$/darkroom.com/logs/access_log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkroom.com/application/controllers/user.php" afterPath="$PROJECT_DIR$/darkroom.com/application/controllers/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="darkroom.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373727125766" ignored="false" />
     <file path="/login.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373748828906" ignored="false" />
-    <file path="/user.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1374090653314" ignored="false" />
+    <file path="/user.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1374158007094" ignored="false" />
     <file path="/album.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373986443059" ignored="false" />
     <file path="/update_user.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1374022504478" ignored="false" />
     <file path="/login_model.php" changelist="fdf60ccf-4537-4357-bfea-d2b5b0643c8a" time="1373732076684" ignored="false" />
@@ -56,10 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="43" selection-start="308" selection-end="308" vertical-scroll-proportion="-3.9795918">
+            <state line="93" column="29" selection-start="3009" selection-end="3009" vertical-scroll-proportion="0.5381098">
               <folding />
             </state>
           </provider>
@@ -77,8 +79,27 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/darkroom.com/web/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="493" column="33" selection-start="9240" selection-end="9240" vertical-scroll-proportion="-12.48">
-              <folding />
+            <state line="504" column="10" selection-start="9421" selection-end="9421" vertical-scroll-proportion="-12.48">
+              <folding>
+                <marker date="1374157175000" expanded="true" signature="9352:9466" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="15692:15833" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="15899:16342" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="16431:16558" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="16599:16627" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="16663:16668" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="16713:16741" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="16777:17030" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="17076:17451" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="17545:17563" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="17610:17739" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="17780:17784" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="17844:17890" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="18020:18139" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="18186:18212" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="18277:18348" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="18428:18515" placeholder="{...}" />
+                <marker date="1374157175000" expanded="true" signature="18579:18586" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,10 +144,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_user_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="add_user_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/add_user_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="656" selection-end="656" vertical-scroll-proportion="0.33039647">
+            <state line="22" column="38" selection-start="866" selection-end="866" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -184,12 +205,12 @@
         <option value="$PROJECT_DIR$/darkroom.com/application/views/photos.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/user_photos.php" />
         <option value="$PROJECT_DIR$/darkroom.com/web/css/main.css" />
-        <option value="$PROJECT_DIR$/darkroom.com/application/controllers/user.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/home.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/includes/template.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/views/includes/header.php" />
         <option value="$PROJECT_DIR$/darkroom.com/application/models/add_user_model.php" />
+        <option value="$PROJECT_DIR$/darkroom.com/application/controllers/user.php" />
       </list>
     </option>
   </component>
@@ -625,15 +646,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/darkroom.com/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="493" column="33" selection-start="9240" selection-end="9240" vertical-scroll-proportion="-12.48">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="308" selection-end="308" vertical-scroll-proportion="-3.9795918">
-          <folding />
+        <state line="504" column="10" selection-start="9421" selection-end="9421" vertical-scroll-proportion="-12.48">
+          <folding>
+            <marker date="1374157175000" expanded="true" signature="9352:9466" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="15692:15833" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="15899:16342" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="16431:16558" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="16599:16627" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="16663:16668" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="16713:16741" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="16777:17030" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="17076:17451" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="17545:17563" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="17610:17739" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="17780:17784" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="17844:17890" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="18020:18139" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="18186:18212" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="18277:18348" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="18428:18515" placeholder="{...}" />
+            <marker date="1374157175000" expanded="true" signature="18579:18586" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -678,7 +711,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/darkroom.com/application/models/add_user_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="656" selection-end="656" vertical-scroll-proportion="0.33039647">
+        <state line="22" column="38" selection-start="866" selection-end="866" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkroom.com/application/controllers/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="29" selection-start="3009" selection-end="3009" vertical-scroll-proportion="0.5381098">
           <folding />
         </state>
       </provider>
