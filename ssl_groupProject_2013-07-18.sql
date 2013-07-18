@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.29)
 # Database: ssl_groupProject
-# Generation Time: 2013-07-18 13:18:00 +0000
+# Generation Time: 2013-07-18 13:56:07 +0000
 # ************************************************************
 
 
@@ -41,7 +41,12 @@ INSERT INTO `album` (`albumId`, `albumName`, `userId`)
 VALUES
 	(206,'album name',31),
 	(217,'Wallpapers',60),
-	(218,'test',60);
+	(218,'test',60),
+	(219,'Wedding #1',61),
+	(220,'Birthday',61),
+	(221,'',61),
+	(222,'#',61),
+	(223,'!',61);
 
 /*!40000 ALTER TABLE `album` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -108,7 +113,12 @@ VALUES
 	(163,'aurora_10-wallpaper-1440x9004.jpg',NULL,217),
 	(164,'aurora_10-wallpaper-1440x9005.jpg',NULL,217),
 	(165,'aurora_10-wallpaper-1440x9006.jpg',NULL,217),
-	(166,'branch_macro-wallpaper-1440x9006.jpg',NULL,217);
+	(166,'branch_macro-wallpaper-1440x9006.jpg',NULL,217),
+	(167,'sun_rays-wallpaper-1440x900.jpg',NULL,219),
+	(168,'aurora_10-wallpaper-1440x9007.jpg',NULL,219),
+	(169,'apple_on_the_ground-wallpaper-1440x9003.jpg',NULL,219),
+	(170,'apartment_buildings-wallpaper-1440x9002.jpg',NULL,219),
+	(171,'beach_26-wallpaper-1440x9003.jpg',NULL,221);
 
 /*!40000 ALTER TABLE `images` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -130,6 +140,8 @@ CREATE TABLE `users` (
   `notes` varchar(255) DEFAULT NULL,
   `userType` int(11) DEFAULT NULL,
   PRIMARY KEY (`userId`),
+  UNIQUE KEY `username` (`username`),
+  UNIQUE KEY `email` (`email`),
   KEY `usertypefk` (`userType`),
   CONSTRAINT `usertypefk` FOREIGN KEY (`userType`) REFERENCES `userType` (`userTypeId`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -140,7 +152,8 @@ LOCK TABLES `users` WRITE;
 INSERT INTO `users` (`userId`, `username`, `password`, `lastname`, `firstname`, `email`, `date`, `notes`, `userType`)
 VALUES
 	(31,'admin','21232f297a57a5a743894a0e4a801fc3','Angeles','Erwin','admin@admin','2013-07-31','Is the admin yo!',1),
-	(60,'user','ee11cbb19052e40b07aac0ca060c23ee','Last Name','First Name','lol@yahoo.com','2013-07-31','lol',2);
+	(60,'user','ee11cbb19052e40b07aac0ca060c23ee','Last Name','First Name','lol@yahoo.com','2013-07-31','lol',2),
+	(61,'tbsmith','1a1dc91c907325c69271ddf0c944bc72','Smith','Odd','el@g.com','2013-01-04','notes',2);
 
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
