@@ -8,7 +8,6 @@ class User extends CI_Controller {
         $this->load->helper(array('form', 'url'));
     }
 
-
     function admin($id = ''){
         $this->load->model('admin_model');
         $query = $this->admin_model->get();
@@ -122,18 +121,8 @@ class User extends CI_Controller {
         }
 
         $this->load->model('admin_model');
-        //$uid = $this->admin_model->get();
-
 
         redirect("user/album/$uid");
-//        $this->load->model('create_album_model');
-//        $query2 = $this->create_album_model->get2();
-//        $result = $this->create_album_model->get($id);
-//        $data['id'] = $this->uri->segment(3);
-//        $data['main'] = 'album';
-//        $data['result'] = $result;
-//        $data['query2'] = $query2;
-//        $this->load->view('/includes/template',$data);
     }
 
     function update($id){

@@ -8,7 +8,6 @@ class Home extends CI_Controller{
 
     }
 
-
     function index($msg = ''){
 
         $data['main'] = 'home';
@@ -22,7 +21,7 @@ class Home extends CI_Controller{
         $this->load->model('admin_model');
         // Validate the user can login
         $result = $this->admin_model->validate();
-        //$this->admin_model->usertype($id);
+
         // Now we verify the result
         if(!$result){
             // If user did not validate, then show them login page again
@@ -38,7 +37,6 @@ class Home extends CI_Controller{
             }elseif($uid == 2){
                 redirect('user/user_album');
             }
-
         }
     }
 

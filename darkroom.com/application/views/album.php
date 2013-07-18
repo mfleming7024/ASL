@@ -33,12 +33,13 @@
             if($row->userId == $id){
                //echo '<ul class="albums">' ;
                 echo '<li class="item-type-1">';
-                echo '<a href="/user/photos/'.$row->albumId.'">';
+                echo '<a class="album_lightbox" href="/user/photos/'.$row->albumId.'">';
                 echo '<span>'.$row->albumName.'</span>';
                 echo '<img src="/img/1.jpg" height="120" width="160">';
                 echo '</a>';
-                echo '<a onclick="return confirmation();" href="/user/delete_album/'.$row->albumId .'" >DELETE </a>';
+                echo '<a class="delete" onclick="return confirmation();" href="/user/delete_album/'.$row->albumId .'" >DELETE </a>';
                 echo '</li>';
+
                // echo '</ul>';
             }
         }

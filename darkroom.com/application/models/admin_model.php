@@ -66,16 +66,6 @@ class Admin_model extends CI_Model{
     }
     public function usertype(){
        $this->load->database();
-//       $query = $this->db->get_where('users', array('userType' => $id));
-//       return $query->result();
-
-//        $new_user_insert_data = array(
-//            'userType' => $id,
-//
-//        );
-//
-//        $query = $this->db->get('users', $new_user_insert_data);
-//        return $query->result();
 
         $this->db->select('userType');
         $this->db->where('userType');
@@ -83,26 +73,17 @@ class Admin_model extends CI_Model{
 
         return $query->result();
 
+    }
+    function sessions(){
+        $data = array(
 
-//        $this->db->where('userType', $id);
-//        $query = $this->db->get('users');
-//        if($query->num_results() ==1)
-//        {
-//            $result = $query->result_array();
-//            switch ($result['usergroup']) {
-//                case '1':
-//                    redirect 'home';
-//        break;
-//                case '2':
-//                    redirect 'admin';
-//        break;
-//                default:
-//                    redirect 'home';
-//        break;
-//            }
-//        }
+         'session_id'=> randomhash,
+         'ip_address'=>'string - user IP address',
+         'user_agent'=> 'string - user agent data',
+         'last_activity'=> timestamp
+        );
 
-
+        $this->db->insert('ci_sessions',$data);
     }
 }
 ?>

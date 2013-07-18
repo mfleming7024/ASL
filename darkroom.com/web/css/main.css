@@ -845,7 +845,7 @@ margin: 0px;
 float: left;
 width: 220px;
 height: 165px;
-margin-bottom: 15px;
+margin-bottom: 35px;
 -webkit-transition: opacity 0.6s ease-in-out;
 -moz-transition: opacity 0.6s ease-in-out;
 -o-transition: opacity 0.6s ease-in-out;
@@ -881,12 +881,12 @@ text-shadow: 1px 1px 1px #303857;
 transition: all 0.3s ease-in-out;
 }
 
-.albums a:hover span{
+.album_lightbox:hover span{
 	height: 135px;
 	opacity: 1;
 }
 
-.albums a {
+.album_lightbox {
 display: block;
 position: relative;
 padding: 5px;
@@ -1049,4 +1049,10 @@ border: 0;
 	width: 100%;
 }
 
-
+.delete{
+    max-height: 30px;
+    overflow: hidden;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    margin-left: 3px;
+}
