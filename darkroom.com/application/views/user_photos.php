@@ -4,7 +4,7 @@
             echo $result['albumName'];?></h3>
     </div>
     <nav id="admin_nav">
-
+	    <a style="color: white" href="/user/user_album/">&#60; Back</a>
     </nav>
     <div id="admin_bg">
         <ul class="photos">
