@@ -9,7 +9,6 @@
     </div> <!-- end welcome -->
 </div> <!-- end middle-->
 
-
 <div id="bottom">
     <div id="columns">
         <div class="col1">

@@ -8,6 +8,7 @@ body{
 	position: fixed;
 	width: 100%;
 	margin-top: -70px;
+    box-shadow: 0 0 10px #000;
 	z-index: 100;
 }
 
@@ -267,6 +268,7 @@ a{
 	background: #232323;
 	height: 380px;
 	width: 100%;
+    box-shadow: 0 0 10px #000;
 }
 
 #bottom img{

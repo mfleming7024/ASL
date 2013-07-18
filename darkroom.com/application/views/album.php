@@ -29,9 +29,7 @@
         <ul class="albums">
         <?php
         foreach($query2->result() as $row){
-            //echo $row->userId;
             if($row->userId == $id){
-               //echo '<ul class="albums">' ;
                 echo '<li class="item-type-1">';
                 echo '<a class="album_lightbox" href="/user/photos/'.$row->albumId.'">';
                 echo '<span>'.$row->albumName.'</span>';
@@ -39,8 +37,6 @@
                 echo '</a>';
                 echo '<a class="delete" onclick="return confirmation();" href="/user/delete_album/'.$row->albumId .'" >DELETE </a>';
                 echo '</li>';
-
-               // echo '</ul>';
             }
         }
         ?>
