@@ -131,8 +131,10 @@ class User extends CI_Controller {
 
         $result = $this->create_album_model->get($id);
         $query2 = $this->create_album_model->get2();
-
-
+        
+        
+        $viewedUser = array("viewedUserId" => $id);
+        $this->session->set_userdata($viewedUser);
 
 
         $this->load->model('admin_model');
