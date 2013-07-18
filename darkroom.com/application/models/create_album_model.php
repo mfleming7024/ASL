@@ -10,12 +10,20 @@ class Create_album_model extends CI_Model{
     function add_album(){
 
         $this->load->database();
-
-        $data = array(
-            'albumName'=>$this->input->post('album_name'),
-            'userId'=>$this->input->post('id'),
-
-        );
+        
+        if ($this->input->post("album_name") == null || $this->input->post("album_name") == "") {
+	         $data = array(
+	         	'albumName'=>"Default Album",
+	         	'userId'=>$this->input->post('id'),
+            );
+        } else {
+	        $data = array(
+	        	'albumName'=>$this->input->post('album_name'),
+	        	'userId'=>$this->input->post('id'),
+            );
+        }
+        
+       
         $this->db->where('userId' ,$this->input->post('id'));
         $this->db->insert('album',$data);
     }
