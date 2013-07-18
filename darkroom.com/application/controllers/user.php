@@ -8,9 +8,10 @@ class User extends CI_Controller {
         $this->load->helper(array('form', 'url'));
     }
 
+
     function admin($id = ''){
         $this->load->model('admin_model');
-       $query = $this->admin_model->get();
+        $query = $this->admin_model->get();
 
         $this->load->model('admin_model');
         $type = $this->admin_model->usertype($id);
@@ -23,9 +24,6 @@ class User extends CI_Controller {
         }elseif($uid == 2){
             redirect('user/user_album');
         }
-
-
-
     }
     function users(){
         $this->load->model('admin_model');

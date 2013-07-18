@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.29)
 # Database: ssl_groupProject
-# Generation Time: 2013-07-17 03:12:52 +0000
+# Generation Time: 2013-07-18 13:18:00 +0000
 # ************************************************************
 
 
@@ -39,7 +39,9 @@ LOCK TABLES `album` WRITE;
 
 INSERT INTO `album` (`albumId`, `albumName`, `userId`)
 VALUES
-	(206,'album name',31);
+	(206,'album name',31),
+	(217,'Wallpapers',60),
+	(218,'test',60);
 
 /*!40000 ALTER TABLE `album` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -84,7 +86,29 @@ LOCK TABLES `images` WRITE;
 INSERT INTO `images` (`imgId`, `name`, `userId`, `albumId`)
 VALUES
 	(130,'apple_on_the_ground-wallpaper-1440x900.jpg',NULL,206),
-	(131,'chicago_late_evening-wallpaper-1440x9003.jpg',NULL,206);
+	(131,'chicago_late_evening-wallpaper-1440x9003.jpg',NULL,206),
+	(145,'beach_26-wallpaper-1440x9002.jpg',NULL,217),
+	(146,'branch_macro-wallpaper-1440x9004.jpg',NULL,217),
+	(147,'chicago_night_sky_2-wallpaper-1440x9001.jpg',NULL,217),
+	(148,'chihiro_on_the_street-wallpaper-1440x900.jpg',NULL,217),
+	(149,'chicago_night_sky_2-wallpaper-1440x9002.jpg',NULL,217),
+	(150,'alps_meadow_germany-wallpaper-1440x900.jpg',NULL,217),
+	(151,'city_15-wallpaper-1440x9002.jpg',NULL,217),
+	(152,'chicago_late_evening-wallpaper-1440x9007.jpg',NULL,217),
+	(153,'chicago_late_evening-wallpaper-1440x9008.jpg',NULL,217),
+	(154,'chicago_late_evening-wallpaper-1440x9009.jpg',NULL,217),
+	(155,'chicago_late_evening-wallpaper-1440x90010.jpg',NULL,217),
+	(156,'branch_macro-wallpaper-1440x9005.jpg',NULL,217),
+	(157,'city_15-wallpaper-1440x9003.jpg',NULL,218),
+	(158,'chalets-wallpaper-1280x7686.jpg',NULL,217),
+	(159,'chalets-wallpaper-1280x7687.jpg',NULL,217),
+	(160,'aurora_10-wallpaper-1440x9001.jpg',NULL,217),
+	(161,'aurora_10-wallpaper-1440x9002.jpg',NULL,217),
+	(162,'aurora_10-wallpaper-1440x9003.jpg',NULL,217),
+	(163,'aurora_10-wallpaper-1440x9004.jpg',NULL,217),
+	(164,'aurora_10-wallpaper-1440x9005.jpg',NULL,217),
+	(165,'aurora_10-wallpaper-1440x9006.jpg',NULL,217),
+	(166,'branch_macro-wallpaper-1440x9006.jpg',NULL,217);
 
 /*!40000 ALTER TABLE `images` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -116,7 +140,7 @@ LOCK TABLES `users` WRITE;
 INSERT INTO `users` (`userId`, `username`, `password`, `lastname`, `firstname`, `email`, `date`, `notes`, `userType`)
 VALUES
 	(31,'admin','21232f297a57a5a743894a0e4a801fc3','Angeles','Erwin','admin@admin','2013-07-31','Is the admin yo!',1),
-	(58,'user','ee11cbb19052e40b07aac0ca060c23ee','User','User','user@user.com','2013-07-31','Is the user yo!',2);
+	(60,'user','ee11cbb19052e40b07aac0ca060c23ee','Last Name','First Name','lol@yahoo.com','2013-07-31','lol',2);
 
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
