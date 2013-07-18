@@ -26,7 +26,7 @@ class Home extends CI_Controller{
         // Now we verify the result
         if(!$result){
             // If user did not validate, then show them login page again
-            $msg = '<font color=red>Invalid username and/or password.</font><br />';
+            $msg = '<p class="login_error">Invalid username and/or password.</p>';
             $this->index($msg);
         }else{
             $this->load->model('admin_model');

@@ -65,8 +65,8 @@
             echo '<input class="inputs" type="password" name="password" id="password" placeholder="Password" > ';
 
             echo '<button class="btn">LOGIN</button>' ;
-            echo $msg;
             echo '</form>';
+            echo $msg;
         }
         ?>
 
