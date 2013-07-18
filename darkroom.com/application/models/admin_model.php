@@ -22,19 +22,6 @@ class Admin_model extends CI_Model{
 
             if($query){
 
-//                $result = $query->result_array();
-//                switch ($result['usergroup']) {
-//                    case '1':
-//                        redirect 'home';
-//                break;
-//                    case '2':
-//                        redirect 'admin';
-//                break;
-//                    default:
-//                        redirect 'home';
-//                break;
-//                        }
-
                 $result = $query->result_array();
                 $usertype = $result[0]['userType'];
                 $uid = $usertype;

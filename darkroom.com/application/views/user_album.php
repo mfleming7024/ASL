@@ -4,18 +4,7 @@
             echo $lastname . ", " . $firstname ;?></h3>
     </div>
     <nav id="admin_nav">
-<!--        <ul id="upload_bar">-->
-<!--            <li class="add_user"><h3>Add Album</h3></li>-->
-<!---->
-<!--            <li>-->
-<!--                <form action="/user/create_album/--><?php //echo $id;?><!--" method="post"-->
-<!--                      ENCTYPE="multipart/form-data">-->
-<!--                    <input type="hidden" name="id" value="--><?php //echo $id;?><!--" />-->
-<!--                    <input type="text" name="album_name" value="album name">-->
-<!--                    <input type="submit" value="Create">-->
-<!--                </form>-->
-<!--            </li>-->
-<!--        </ul>-->
+
     </nav>
 
     <div id="admin_bg">

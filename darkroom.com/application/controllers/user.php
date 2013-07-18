@@ -67,8 +67,7 @@ class User extends CI_Controller {
         //fieldname , errormessage, validation rules
         $this->form_validation->set_rules('lastname','Last name', 'trim|required');
         $this->form_validation->set_rules('firstname','First name', 'trim|required');
-        $this->form_validation->set_rules('username','Username', 'trim|required');
-        $this->form_validation->set_rules('username', 'Username exists', 'callback_rolekey_exists');
+        $this->form_validation->set_rules('username','Username', 'callback_username_exists','trim|required');
         $this->form_validation->set_rules('password','Password', 'trim|required');
         $this->form_validation->set_rules('email','Email', 'trim|required|valid_email');
         $this->form_validation->set_rules('dateInput','Date', 'required');
@@ -88,10 +87,20 @@ class User extends CI_Controller {
             };
         }
     }
-    function rolekey_exists($key)
+    public function username_exists($str)
     {
         $this->load->model('add_user_model');
-        $this->add_user_model->role_exists($key);
+        $taken = $this->add_user_model->username_check($str);
+
+        if ($taken)
+        {
+            $this->form_validation->set_message('username_exists', 'Username is taken');
+            return FALSE;
+        }
+        else
+        {
+            return TRUE;
+        }
     }
 
     function delete($id){
@@ -102,6 +111,25 @@ class User extends CI_Controller {
         }
 
         $this->admin();
+    }
+    function delete_album($id = 0){
+        $this->load->model('delete_model');
+        if((int)$id > 0){
+            $this->delete_model->album_delete($id);
+        }
+
+        $this->load->model('admin_model');
+        $uid = $this->admin_model->get();
+
+        redirect("user/album/'61'");
+//        $this->load->model('create_album_model');
+//        $query2 = $this->create_album_model->get2();
+//        $result = $this->create_album_model->get($id);
+//        $data['id'] = $this->uri->segment(3);
+//        $data['main'] = 'album';
+//        $data['result'] = $result;
+//        $data['query2'] = $query2;
+//        $this->load->view('/includes/template',$data);
     }
 
     function update($id){

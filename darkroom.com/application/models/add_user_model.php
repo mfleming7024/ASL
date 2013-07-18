@@ -17,9 +17,9 @@ class Add_user_model extends CI_Model{
         $insert = $this->db->insert('users', $new_user_insert_data);
         return $insert;
     }
-    function role_exists($key)
+    function username_check($str)
     {
-        $this->db->where('username',$key);
+        $this->db->where('username',$str);
         $query = $this->db->get('users');
         if ($query->num_rows() > 0){
             return true;

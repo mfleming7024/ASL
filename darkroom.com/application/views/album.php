@@ -1,3 +1,10 @@
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed'); ?>
+<script>
+    function confirmation() {
+        return confirm("Are you sure you want to delete this record?")
+    }
+</script>
+
 <div id="middle_two" class="clearfix">
     <div id="view_user">
         <h3><?php
@@ -30,6 +37,7 @@
                 echo '<span>'.$row->albumName.'</span>';
                 echo '<img src="/img/1.jpg" height="120" width="160">';
                 echo '</a>';
+                echo '<a onclick="return confirmation();" href="/user/delete_album/'.$row->albumId .'" >DELETE </a>';
                 echo '</li>';
                // echo '</ul>';
             }
