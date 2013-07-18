@@ -827,7 +827,9 @@ background: #999;
 .albums {
 position: relative;
 margin: 0px auto;
+padding-bottom: 20px;
 padding-top: 20px;
+overflow: hidden;
 }
 
 .albums li {
@@ -835,7 +837,7 @@ margin: 0px;
 float: left;
 width: 220px;
 height: 165px;
-margin-bottom: 10px;
+margin-bottom: 15px;
 -webkit-transition: opacity 0.6s ease-in-out;
 -moz-transition: opacity 0.6s ease-in-out;
 -o-transition: opacity 0.6s ease-in-out;
@@ -855,7 +857,7 @@ font-family: 'Titillium Web', sans-serif;
 color: #fff;
 padding: 20px;
 position: absolute;
-padding-top: 20px;
+padding-top: 5px;
 bottom: 5px;
 left: 5px;
 width: 160px;
@@ -872,7 +874,7 @@ transition: all 0.3s ease-in-out;
 }
 
 .albums a:hover span{
-	height: 120px;
+	height: 135px;
 	opacity: 1;
 }
 
@@ -902,6 +904,8 @@ list-style: none;
 position: relative;
 margin: 0px auto;
 padding-top: 20px;
+padding-bottom: 20px;
+overflow: hidden;
 }
 
 .photos li {
