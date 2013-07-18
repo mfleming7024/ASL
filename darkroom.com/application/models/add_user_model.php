@@ -13,7 +13,7 @@ class Add_user_model extends CI_Model{
             'notes' => $this->input->post('notes'),
             'userType' => $this->input->post('user_type'),
         );
-
+        
         $insert = $this->db->insert('users', $new_user_insert_data);
         return $insert;
     }

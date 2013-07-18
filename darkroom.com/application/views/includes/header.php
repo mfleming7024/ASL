@@ -60,11 +60,12 @@
 
 
         }else{
-            echo '<form id="inputs" action="home/process" enctype="multipart/form-data" method="post">';
+            echo '<form id="inputs" action="/home/process" enctype="multipart/form-data" method="post">';
             echo '<input class="inputs" name="username" id="username" placeholder="Username" > ';
             echo '<input class="inputs" type="password" name="password" id="password" placeholder="Password" > ';
 
             echo '<button class="btn">LOGIN</button>' ;
+            echo $msg;
             echo '</form>';
         }
         ?>

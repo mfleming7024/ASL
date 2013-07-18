@@ -9,14 +9,10 @@ class Home extends CI_Controller{
     }
 
 
-    function index($id = ''){
-
-        $this->load->model('admin_model');
-
-        $usertype = $this->admin_model->usertype($id);
+    function index($msg = ''){
 
         $data['main'] = 'home';
-        $usertype['id'] = $usertype;
+        $data['msg'] = $msg;
         $this->load->view('includes/template', $data);
 
     }
@@ -28,7 +24,7 @@ class Home extends CI_Controller{
         $result = $this->admin_model->validate();
         //$this->admin_model->usertype($id);
         // Now we verify the result
-        if(! $result){
+        if(!$result){
             // If user did not validate, then show them login page again
             $msg = '<font color=red>Invalid username and/or password.</font><br />';
             $this->index($msg);

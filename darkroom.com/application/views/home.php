@@ -7,7 +7,6 @@
         </div> <!-- end left -->
 
     </div> <!-- end welcome -->
-
 </div> <!-- end middle-->
 
 
